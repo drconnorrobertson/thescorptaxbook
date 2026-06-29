@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>S Corp vs LLC: When Does Making the S Election Actually Save You Money</title>
+  <meta name="description" content="Break-even analysis comparing S Corp election vs LLC default taxation. Learn when S Corp saves money, when LLC is better, and the additional costs to consider.">
+  <meta name="keywords" content="s corp vs llc, s corp election, llc tax savings, s corp break even, llc vs s corp comparison, entity selection, s corp costs">
+  <link rel="canonical" href="https://thescorptaxbook.com/blog/posts/s-corp-vs-llc-tax-savings.html">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="S Corp vs LLC: When Does Making the S Election Actually Save You Money">
+  <meta property="og:description" content="Break-even analysis comparing S Corp election vs LLC default taxation. Learn when S Corp saves money and when LLC is the better choice.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://thescorptaxbook.com/blog/posts/s-corp-vs-llc-tax-savings.html">
+  <meta property="og:site_name" content="S Corporation Tax Savings">
+  <meta property="article:published_time" content="2026-06-29">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="S Corp vs LLC: When Does Making the S Election Actually Save You Money">
+  <meta name="twitter:description" content="Break-even analysis comparing S Corp election vs LLC default taxation. When S Corp saves money and when LLC is better.">
+
+  <!-- Schema.org BlogPosting -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "S Corp vs LLC: When Does Making the S Election Actually Save You Money",
+    "description": "Break-even analysis comparing S Corp election vs LLC default taxation. Learn when S Corp saves money, when LLC is better, and the additional costs to consider.",
+    "datePublished": "2026-06-29",
+    "dateModified": "2026-06-29",
+    "author": {
+      "@type": "Organization",
+      "name": "AE Tax Advisors",
+      "url": "https://aetaxadvisors.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "AE Tax Advisors",
+      "url": "https://aetaxadvisors.com"
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://thescorptaxbook.com/blog/posts/s-corp-vs-llc-tax-savings.html"
+    },
+    "url": "https://thescorptaxbook.com/blog/posts/s-corp-vs-llc-tax-savings.html"
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <style>
+    .post-hero {
+      background: linear-gradient(160deg, var(--navy-dark), var(--navy));
+      padding: 140px 0 60px;
+    }
+    .post-hero__back {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--gold);
+      font-size: 0.85rem;
+      font-weight: 600;
+      text-decoration: none;
+      margin-bottom: 24px;
+      transition: color var(--transition);
+    }
+    .post-hero__back:hover { color: var(--gold-light); }
+    .post-hero__back::before { content: '\2190'; }
+    .post-hero__date {
+      font-size: 0.8rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--gold);
+      margin-bottom: 16px;
+    }
+    .post-hero__title {
+      font-size: 2.5rem;
+      color: var(--white);
+      line-height: 1.15;
+      max-width: 800px;
+    }
+    .post-content {
+      padding: 64px 0 80px;
+    }
+    .post-content .container--narrow {
+      max-width: 760px;
+    }
+    .post-content h2 {
+      font-size: 1.6rem;
+      margin-top: 48px;
+      margin-bottom: 20px;
+      color: var(--navy);
+    }
+    .post-content h3 {
+      font-size: 1.25rem;
+      margin-top: 36px;
+      margin-bottom: 16px;
+      color: var(--navy);
+    }
+    .post-content p {
+      font-size: 1.02rem;
+      color: var(--gray-700);
+      line-height: 1.8;
+      margin-bottom: 20px;
+    }
+    .post-content ul, .post-content ol {
+      margin-bottom: 20px;
+      padding-left: 24px;
+    }
+    .post-content li {
+      font-size: 1.02rem;
+      color: var(--gray-700);
+      line-height: 1.8;
+      margin-bottom: 8px;
+    }
+    .post-content strong {
+      color: var(--navy);
+    }
+    .post-content a {
+      color: var(--gold-dark);
+      text-decoration: underline;
+    }
+    .post-content a:hover {
+      color: var(--navy);
+    }
+    .post-cta {
+      background: linear-gradient(135deg, rgba(197, 165, 114, 0.08), rgba(197, 165, 114, 0.03));
+      border: 1px solid rgba(197, 165, 114, 0.25);
+      border-radius: var(--radius-lg);
+      padding: 36px;
+      margin-top: 48px;
+      text-align: center;
+    }
+    .post-cta h3 {
+      margin-top: 0;
+      font-size: 1.35rem;
+      margin-bottom: 12px;
+    }
+    .post-cta p {
+      margin-bottom: 24px;
+      color: var(--gray-600);
+    }
+    @media (max-width: 768px) {
+      .post-hero__title { font-size: 1.75rem; }
+      .post-content h2 { font-size: 1.35rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="/" class="nav__brand">
+        <div class="nav__icon">SC</div>
+        S Corp Tax Savings
+      </a>
+      <ul class="nav__links">
+        <li><a href="/#chapters">Chapters</a></li>
+        <li><a href="/#audience">Who It's For</a></li>
+        <li><a href="/#series">Series</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/blog/">Blog</a></li>
+        <li><a href="https://aetaxadvisors.com" target="_blank" rel="noopener" class="nav__cta">AE Tax Advisors</a></li>
+      </ul>
+      <button class="nav__toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Post Hero -->
+  <section class="post-hero">
+    <div class="container">
+      <a href="/blog/" class="post-hero__back">Back to Blog</a>
+      <div class="post-hero__date">June 29, 2026</div>
+      <h1 class="post-hero__title">S Corp vs LLC: When Does Making the S Election Actually Save You Money</h1>
+    </div>
+  </section>
+
+  <!-- Post Content -->
+  <article class="post-content">
+    <div class="container container--narrow">
+
+      <p>The question "should I elect S Corp status for my LLC?" is one of the most common and most consequential decisions a small business owner faces. The right answer can save you $10,000 or more per year in self-employment taxes. The wrong answer can saddle you with compliance costs, payroll headaches, and administrative burdens that exceed the tax savings. Here is the full analysis -- when S Corp election works, when it does not, and exactly how to run the numbers for your business.</p>
+
+      <h2>How an LLC Is Taxed by Default</h2>
+
+      <p>A single-member LLC is treated as a "disregarded entity" by the IRS -- meaning the LLC itself does not file a tax return. All income and expenses flow directly onto the owner's personal return, typically on Schedule C. A multi-member LLC is taxed as a partnership by default, filing Form 1065 with each member receiving a Schedule K-1.</p>
+
+      <p>Under default LLC taxation, all net business profit is subject to self-employment tax at 15.3% (12.4% Social Security plus 2.9% Medicare). The Social Security portion applies up to the wage base ($176,100 in 2026), and Medicare applies to all earnings with no cap. An additional 0.9% Medicare surtax applies to self-employment income above $200,000 for single filers or $250,000 for married filing jointly.</p>
+
+      <p>The simplicity is the LLC's advantage. There is no payroll to run, no separate corporate tax return, no reasonable compensation analysis, and no state franchise tax in most states. The bookkeeping burden is minimal compared to operating as an S Corporation.</p>
+
+      <h2>How S Corp Election Changes the Equation</h2>
+
+      <p>When you elect S Corporation status for your LLC (by filing Form 2553), the legal structure stays the same -- you still have an LLC with the same operating agreement and liability protection. What changes is how the IRS taxes it. Instead of all profit flowing through as self-employment income, you now split compensation into two streams:</p>
+
+      <ul>
+        <li><strong>Salary (W-2 wages)</strong> -- Subject to payroll taxes (employer and employee FICA, totaling 15.3%).</li>
+        <li><strong>Distributions (shareholder draws)</strong> -- Not subject to payroll or self-employment tax. Only subject to income tax.</li>
+      </ul>
+
+      <p>The savings come from the distributions. Every dollar you can legitimately take as a distribution rather than salary avoids the 15.3% self-employment tax. For a business earning $200,000 with an $80,000 salary, the $120,000 in distributions avoids roughly $18,360 in payroll taxes.</p>
+
+      <h2>The Break-Even Analysis</h2>
+
+      <p>The S Corp election does not save money at every income level. It only saves money when the self-employment tax savings on distributions exceed the additional costs of operating as an S Corporation. Here is what those costs look like:</p>
+
+      <ul>
+        <li><strong>Payroll processing</strong> -- Running payroll, filing quarterly 941s, issuing W-2s, and handling state payroll tax filings. Typical cost: $500 to $2,000 per year using a payroll service.</li>
+        <li><strong>S Corp tax return (Form 1120-S)</strong> -- This is a separate business return filed in addition to your personal return. CPA fees for 1120-S preparation typically range from $1,000 to $3,000 depending on complexity.</li>
+        <li><strong>State fees and taxes</strong> -- Some states impose franchise taxes, minimum taxes, or additional fees on S Corporations. California charges a 1.5% franchise tax on net income (minimum $800). New York imposes a fixed dollar minimum tax based on gross receipts.</li>
+        <li><strong>Bookkeeping requirements</strong> -- S Corps require more formal bookkeeping including shareholder equity tracking, distribution records, and basis calculations.</li>
+      </ul>
+
+      <p>When you add these costs together, the annual overhead of operating as an S Corp is typically $2,000 to $5,000, depending on your state and the complexity of your business.</p>
+
+      <h3>The Break-Even Threshold</h3>
+
+      <p>For the S Corp election to make financial sense, your self-employment tax savings must exceed these costs. As a general rule, the break-even point is around <strong>$50,000 to $60,000 in net profit above a reasonable salary</strong>. Here is the math at several income levels:</p>
+
+      <p><strong>Net profit: $60,000.</strong> Reasonable salary: $50,000. Distribution: $10,000. SE tax savings on distributions: ~$1,530. Additional S Corp costs: ~$2,500 to $4,000. <strong>Result: S Corp election likely costs more than it saves.</strong></p>
+
+      <p><strong>Net profit: $100,000.</strong> Reasonable salary: $60,000. Distribution: $40,000. SE tax savings on distributions: ~$6,120. Additional S Corp costs: ~$3,000 to $4,000. <strong>Result: Net savings of approximately $2,000 to $3,000. S Corp is starting to make sense.</strong></p>
+
+      <p><strong>Net profit: $200,000.</strong> Reasonable salary: $80,000. Distribution: $120,000. SE tax savings on distributions: ~$18,360. Additional S Corp costs: ~$3,000 to $5,000. <strong>Result: Net savings of approximately $13,000 to $15,000. Strong S Corp advantage.</strong></p>
+
+      <p><strong>Net profit: $400,000.</strong> Reasonable salary: $120,000. Distribution: $280,000. SE tax savings on distributions: ~$24,920 (Social Security cap applies). Additional S Corp costs: ~$4,000 to $6,000. <strong>Result: Net savings of approximately $19,000 to $21,000. Very strong S Corp advantage.</strong></p>
+
+      <h2>When LLC Status Is Actually Better</h2>
+
+      <p>S Corp election is not always the right call. There are several situations where maintaining default LLC taxation is the better choice:</p>
+
+      <ul>
+        <li><strong>Low or inconsistent profitability</strong> -- If your business earns less than $50,000 in net profit most years, or your income is highly variable with some years earning very little, the S Corp overhead likely exceeds the savings. You can always elect S Corp status later when profits grow.</li>
+        <li><strong>Multiple classes of ownership</strong> -- S Corporations are limited to one class of stock, which means all shareholders must have identical distribution and liquidation rights. If your LLC operating agreement gives different members different economic rights (preferred returns, different profit splits, waterfall distributions), you cannot maintain those arrangements with an S Corp. This is where partnership taxation -- the LLC default for multi-member entities -- provides far more flexibility.</li>
+        <li><strong>Foreign or entity owners</strong> -- S Corporations cannot have nonresident alien shareholders, and most entities (corporations, partnerships, trusts with certain exceptions) cannot be S Corp shareholders. If your ownership structure includes any of these, S Corp election is not available.</li>
+        <li><strong>Real estate holdings with planned 1031 exchanges</strong> -- S Corporations cannot do 1031 like-kind exchanges at the entity level the way LLCs can. If you plan to sell and exchange investment property, holding it in an S Corp creates significant complications.</li>
+        <li><strong>Plans to take on investors</strong> -- If you anticipate bringing in outside investors who may want different rights than existing owners, or if you may need more than 100 shareholders, the S Corp restrictions will limit your options.</li>
+      </ul>
+
+      <h2>The Hybrid Approach: LLC Taxed as S Corp</h2>
+
+      <p>The most common approach is what tax professionals call the "hybrid" -- forming an LLC for legal liability protection and then electing S Corporation tax treatment by filing Form 2553. This gives you the flexibility and asset protection of an LLC while capturing the self-employment tax savings of S Corp taxation.</p>
+
+      <p>You do not need to form a corporation to be taxed as an S Corporation. An LLC can elect S Corp status, and this is the approach most small business owners take. You keep your LLC operating agreement, your state LLC registration, and your existing EIN. The only thing that changes is how the IRS taxes your profits.</p>
+
+      <h2>How This Compares to C Corporation Strategy</h2>
+
+      <p>For some business owners -- particularly those with very high incomes who are reinvesting heavily in the business -- the C Corporation offers different advantages. The C Corp's flat 21% corporate tax rate can be lower than the combined income and self-employment tax rate on pass-through income. The tradeoff is double taxation: corporate income is taxed at 21% at the entity level, and dividends are taxed again at the shareholder level when distributed.</p>
+
+      <p>The C Corp alternative is most compelling for business owners who can retain substantial earnings in the business for growth, take advantage of corporate fringe benefits (like employer-paid health insurance that is not subject to the 2% shareholder limitations of S Corps), or plan to hold the business long enough to potentially qualify for the Section 1202 QSBS exclusion on sale. For a comprehensive comparison, see <a href="https://ccorptaxbook.com" target="_blank" rel="noopener">C Corporation Tax Strategy</a> in the Entity Tax Strategy series.</p>
+
+      <h2>Making the Decision</h2>
+
+      <p>The S Corp vs. LLC decision ultimately comes down to a quantitative analysis. Here is a practical framework for making the call:</p>
+
+      <ol>
+        <li><strong>Calculate your expected net profit</strong> for the next two to three years. Use conservative estimates.</li>
+        <li><strong>Determine a reasonable salary</strong> for your role using comparable wage data. This sets the floor for what you must pay yourself as an S Corp.</li>
+        <li><strong>Calculate the SE tax savings</strong> on the difference between net profit and reasonable salary.</li>
+        <li><strong>Estimate the annual S Corp costs</strong> -- payroll processing, additional tax preparation fees, and any state-specific taxes or fees.</li>
+        <li><strong>Compare the savings to the costs.</strong> If the savings exceed costs by a meaningful margin ($2,000 or more) and you expect this to continue for the foreseeable future, S Corp election is likely worthwhile.</li>
+        <li><strong>Consider the non-tax factors</strong> -- ownership flexibility, future investors, real estate plans, and your tolerance for additional administrative complexity.</li>
+      </ol>
+
+      <p>The analysis also needs to account for how S Corp salary interacts with your <a href="/blog/posts/qbi-deduction-s-corp-guide.html">Section 199A QBI deduction</a>. For some business owners, the QBI deduction impact changes the optimal salary level and can shift the break-even analysis. Running both calculations simultaneously -- SE tax savings and QBI deduction impact -- gives you the most accurate picture.</p>
+
+      <div class="post-cta">
+        <h3>Ready to Implement These Strategies?</h3>
+        <p>AE Tax Advisors runs the full S Corp vs. LLC analysis for small business owners, modeling the SE tax savings, QBI deduction impact, and compliance costs to determine the right entity structure for your specific situation.</p>
+        <a href="https://aetaxadvisors.com" target="_blank" rel="noopener" class="btn btn--primary">Schedule a Consultation at AE Tax Advisors</a>
+      </div>
+
+    </div>
+  </article>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <div class="footer__brand-title">S Corporation Tax Savings</div>
+          <p class="footer__brand-text">The definitive guide to S Corporation tax optimization for small business owners. Part of the Entity Tax Strategy series by AE Tax Advisors.</p>
+        </div>
+        <div>
+          <div class="footer__heading">Book Series</div>
+          <ul class="footer__links">
+            <li><a href="https://partnershiptaxbook.com">Partnership Tax Planning</a></li>
+            <li><a href="https://ccorptaxbook.com">C Corporation Tax Strategy</a></li>
+            <li><a href="https://thescorptaxbook.com">S Corporation Tax Savings</a></li>
+            <li><a href="https://therealestatetaxbook.com">Real Estate Tax Playbook</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer__heading">AE Tax Services</div>
+          <ul class="footer__links">
+            <li><a href="https://aetaxadvisors.com/cost-segregation-study/" target="_blank" rel="noopener">Cost Segregation</a></li>
+            <li><a href="https://aetaxadvisors.com/short-term-rental-tax-strategy/" target="_blank" rel="noopener">STR Tax Strategy</a></li>
+            <li><a href="https://aetaxadvisors.com/real-estate-tax-planning/" target="_blank" rel="noopener">Real Estate Tax Planning</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer__heading">Resources</div>
+          <ul class="footer__links">
+            <li><a href="/">Home</a></li>
+            <li><a href="/blog/">Blog</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="https://aetaxadvisors.com" target="_blank" rel="noopener">AE Tax Advisors</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>&copy; <span id="current-year">2026</span> AE Tax Advisors. All rights reserved.</span>
+        <a href="https://aetaxadvisors.com" target="_blank" rel="noopener">aetaxadvisors.com</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>

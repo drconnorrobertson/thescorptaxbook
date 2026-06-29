@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The QBI Deduction: How S Corp Owners Can Save Up to 20% on Pass-Through Income</title>
+  <meta name="description" content="Complete guide to the Section 199A QBI deduction for S Corp owners. Income thresholds, SSTB limitations, W-2 wage test, and optimization strategies with real numbers.">
+  <meta name="keywords" content="QBI deduction s corp, section 199A, qualified business income, pass-through deduction, SSTB, W-2 wage test, s corp QBI optimization">
+  <link rel="canonical" href="https://thescorptaxbook.com/blog/posts/qbi-deduction-s-corp-guide.html">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="The QBI Deduction: How S Corp Owners Can Save Up to 20% on Pass-Through Income">
+  <meta property="og:description" content="Complete guide to the Section 199A QBI deduction for S Corp owners. Income thresholds, SSTB limitations, W-2 wage test, and optimization strategies.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://thescorptaxbook.com/blog/posts/qbi-deduction-s-corp-guide.html">
+  <meta property="og:site_name" content="S Corporation Tax Savings">
+  <meta property="article:published_time" content="2026-06-29">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="The QBI Deduction: How S Corp Owners Can Save Up to 20% on Pass-Through Income">
+  <meta name="twitter:description" content="Complete guide to the Section 199A QBI deduction for S Corp owners with optimization strategies.">
+
+  <!-- Schema.org BlogPosting -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "The QBI Deduction: How S Corp Owners Can Save Up to 20% on Pass-Through Income",
+    "description": "Complete guide to the Section 199A QBI deduction for S Corp owners. Income thresholds, SSTB limitations, W-2 wage test, and optimization strategies with real numbers.",
+    "datePublished": "2026-06-29",
+    "dateModified": "2026-06-29",
+    "author": {
+      "@type": "Organization",
+      "name": "AE Tax Advisors",
+      "url": "https://aetaxadvisors.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "AE Tax Advisors",
+      "url": "https://aetaxadvisors.com"
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://thescorptaxbook.com/blog/posts/qbi-deduction-s-corp-guide.html"
+    },
+    "url": "https://thescorptaxbook.com/blog/posts/qbi-deduction-s-corp-guide.html"
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <style>
+    .post-hero {
+      background: linear-gradient(160deg, var(--navy-dark), var(--navy));
+      padding: 140px 0 60px;
+    }
+    .post-hero__back {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--gold);
+      font-size: 0.85rem;
+      font-weight: 600;
+      text-decoration: none;
+      margin-bottom: 24px;
+      transition: color var(--transition);
+    }
+    .post-hero__back:hover { color: var(--gold-light); }
+    .post-hero__back::before { content: '\2190'; }
+    .post-hero__date {
+      font-size: 0.8rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--gold);
+      margin-bottom: 16px;
+    }
+    .post-hero__title {
+      font-size: 2.5rem;
+      color: var(--white);
+      line-height: 1.15;
+      max-width: 800px;
+    }
+    .post-content {
+      padding: 64px 0 80px;
+    }
+    .post-content .container--narrow {
+      max-width: 760px;
+    }
+    .post-content h2 {
+      font-size: 1.6rem;
+      margin-top: 48px;
+      margin-bottom: 20px;
+      color: var(--navy);
+    }
+    .post-content h3 {
+      font-size: 1.25rem;
+      margin-top: 36px;
+      margin-bottom: 16px;
+      color: var(--navy);
+    }
+    .post-content p {
+      font-size: 1.02rem;
+      color: var(--gray-700);
+      line-height: 1.8;
+      margin-bottom: 20px;
+    }
+    .post-content ul, .post-content ol {
+      margin-bottom: 20px;
+      padding-left: 24px;
+    }
+    .post-content li {
+      font-size: 1.02rem;
+      color: var(--gray-700);
+      line-height: 1.8;
+      margin-bottom: 8px;
+    }
+    .post-content strong {
+      color: var(--navy);
+    }
+    .post-content a {
+      color: var(--gold-dark);
+      text-decoration: underline;
+    }
+    .post-content a:hover {
+      color: var(--navy);
+    }
+    .post-cta {
+      background: linear-gradient(135deg, rgba(197, 165, 114, 0.08), rgba(197, 165, 114, 0.03));
+      border: 1px solid rgba(197, 165, 114, 0.25);
+      border-radius: var(--radius-lg);
+      padding: 36px;
+      margin-top: 48px;
+      text-align: center;
+    }
+    .post-cta h3 {
+      margin-top: 0;
+      font-size: 1.35rem;
+      margin-bottom: 12px;
+    }
+    .post-cta p {
+      margin-bottom: 24px;
+      color: var(--gray-600);
+    }
+    @media (max-width: 768px) {
+      .post-hero__title { font-size: 1.75rem; }
+      .post-content h2 { font-size: 1.35rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="/" class="nav__brand">
+        <div class="nav__icon">SC</div>
+        S Corp Tax Savings
+      </a>
+      <ul class="nav__links">
+        <li><a href="/#chapters">Chapters</a></li>
+        <li><a href="/#audience">Who It's For</a></li>
+        <li><a href="/#series">Series</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/blog/">Blog</a></li>
+        <li><a href="https://aetaxadvisors.com" target="_blank" rel="noopener" class="nav__cta">AE Tax Advisors</a></li>
+      </ul>
+      <button class="nav__toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Post Hero -->
+  <section class="post-hero">
+    <div class="container">
+      <a href="/blog/" class="post-hero__back">Back to Blog</a>
+      <div class="post-hero__date">June 29, 2026</div>
+      <h1 class="post-hero__title">The QBI Deduction: How S Corp Owners Can Save Up to 20% on Pass-Through Income</h1>
+    </div>
+  </section>
+
+  <!-- Post Content -->
+  <article class="post-content">
+    <div class="container container--narrow">
+
+      <p>The Section 199A qualified business income (QBI) deduction is one of the most valuable tax benefits available to S Corporation owners -- and one of the most misunderstood. At its simplest, it allows eligible business owners to deduct up to 20% of their qualified business income from their taxable income. For an S Corp owner with $150,000 in QBI, that is a potential deduction worth $30,000, saving roughly $7,200 or more in federal income tax depending on the marginal rate.</p>
+
+      <p>But Section 199A is far from simple. Income limits, specified service trade or business (SSTB) restrictions, W-2 wage tests, and the interplay between your S Corp salary and your QBI calculation create a web of rules that require careful planning. Here is how it all works, and how S Corp owners can optimize their position.</p>
+
+      <h2>What Section 199A Is and How It Works</h2>
+
+      <p>Section 199A was enacted as part of the Tax Cuts and Jobs Act of 2017 and has since been extended through 2028 under the One Big Beautiful Bill Act (OBBBA). It provides a deduction of up to 20% of qualified business income from pass-through entities -- S Corporations, partnerships, LLCs, and sole proprietorships. The deduction is taken on the individual return (Form 1040) and reduces taxable income, though not adjusted gross income.</p>
+
+      <p>For S Corp owners, QBI generally equals the S Corporation's net income that flows through to the shareholder on Schedule K-1, minus the reasonable compensation (salary) the shareholder receives. This is a critical point: <strong>your W-2 salary from the S Corp is not QBI</strong>. Only the business income that passes through as your share of S Corp profit qualifies for the 20% deduction.</p>
+
+      <p>This means that, all else being equal, a higher salary reduces your QBI and therefore reduces your Section 199A deduction. But a lower salary increases your risk of an IRS reasonable compensation challenge. Finding the optimal balance between salary and QBI is one of the most important planning opportunities for S Corp owners.</p>
+
+      <h2>Who Qualifies for the Full Deduction</h2>
+
+      <p>The rules for Section 199A differ based on your taxable income level and whether your business is classified as a specified service trade or business.</p>
+
+      <h3>Below the Income Threshold</h3>
+
+      <p>If your total taxable income (from all sources, not just the business) is below the threshold -- $191,950 for single filers or $383,900 for married filing jointly in 2026 -- you generally qualify for the full 20% deduction on your QBI, regardless of your business type. No W-2 wage test or capital limitation applies. This is the simplest scenario, and many S Corp owners fall into this category.</p>
+
+      <h3>Above the Income Threshold</h3>
+
+      <p>Once your taxable income exceeds these thresholds, two additional limitations phase in over a $50,000 range (single) or $100,000 range (MFJ):</p>
+
+      <ul>
+        <li><strong>The W-2 wage and capital test</strong> -- Your QBI deduction is limited to the greater of (a) 50% of the W-2 wages paid by the business, or (b) 25% of W-2 wages plus 2.5% of the unadjusted basis immediately after acquisition (UBIA) of qualified property. For an S Corp, the W-2 wages include the salary paid to the shareholder-employee and any wages paid to other employees.</li>
+        <li><strong>The SSTB limitation</strong> -- If your business is a specified service trade or business, the deduction phases out entirely once your income exceeds the threshold plus the phase-out range. At full phase-out ($241,950 single / $483,900 MFJ in 2026), SSTB owners get zero QBI deduction.</li>
+      </ul>
+
+      <h2>Specified Service Trade or Business (SSTB) Rules</h2>
+
+      <p>SSTBs include businesses in health, law, accounting, actuarial science, performing arts, consulting, athletics, financial services, brokerage services, and any trade or business where the principal asset is the reputation or skill of one or more of its employees or owners. This last category -- "reputation or skill" -- was initially very broad, but IRS regulations narrowed it to apply only when income is generated from endorsements, licensing of name/likeness, or appearance fees.</p>
+
+      <p>Many common businesses are SSTBs -- medical practices, law firms, accounting firms, consulting companies, and financial advisory practices. If you operate in one of these fields and your income exceeds the threshold, your QBI deduction starts phasing out and eventually disappears. This makes income management strategies -- such as maximizing retirement plan contributions to keep taxable income below the threshold -- particularly valuable for SSTB owners.</p>
+
+      <h2>How S Corp Salary Affects QBI</h2>
+
+      <p>The relationship between your S Corp salary and your QBI deduction creates a tax planning tension that many business owners miss. Consider this example:</p>
+
+      <p>An S Corporation earns $300,000 in net profit. The sole shareholder-employee pays herself a salary. The remaining profit passes through as QBI on her K-1.</p>
+
+      <ul>
+        <li><strong>Salary of $100,000:</strong> QBI = $200,000. QBI deduction = $200,000 x 20% = $40,000.</li>
+        <li><strong>Salary of $150,000:</strong> QBI = $150,000. QBI deduction = $150,000 x 20% = $30,000.</li>
+      </ul>
+
+      <p>The $50,000 difference in salary results in a $10,000 difference in the QBI deduction, which at a 24% marginal rate translates to $2,400 in additional tax. But that higher salary also increases payroll taxes by $50,000 x 15.3% = $7,650. The net impact depends on the specific numbers, but this illustrates why the salary-QBI tradeoff must be modeled holistically rather than optimizing for one variable in isolation.</p>
+
+      <h2>The W-2 Wage Test for High-Income S Corp Owners</h2>
+
+      <p>For S Corp owners with income above the threshold, the W-2 wage test becomes the binding constraint. Under the 50% of W-2 wages limitation, the maximum QBI deduction equals 50% of the total W-2 wages paid by the S Corporation.</p>
+
+      <p>This creates a counterintuitive dynamic: <strong>paying a higher salary can actually increase your QBI deduction</strong> when you are above the income threshold. Here is why. If your S Corp pays $100,000 in W-2 wages and your QBI is $200,000, your QBI deduction is limited to the lesser of 20% of QBI ($40,000) or 50% of W-2 wages ($50,000). The 20% of QBI calculation is the binding limit at $40,000. But if you have additional employees and total W-2 wages are only $60,000, your deduction drops to $30,000 because the wage test caps it there.</p>
+
+      <p>For high-income S Corp owners, this means every dollar of W-2 wages paid by the S Corp -- whether to the owner or to employees -- supports up to 50 cents of QBI deduction. Hiring employees or raising salary can, in some cases, produce a net tax benefit when the increased QBI deduction outweighs the additional payroll tax cost.</p>
+
+      <h2>QBI for Real Estate Investors</h2>
+
+      <p>The QBI deduction is not limited to traditional operating businesses. Real estate investors can also qualify for the 20% deduction on rental income if their rental activities rise to the level of a trade or business. The IRS provides a safe harbor under Revenue Procedure 2019-38 that allows rental real estate activities to qualify if the taxpayer maintains separate books, performs 250 or more hours of rental services per year, and maintains contemporaneous records. For a full treatment of how real estate investors use the QBI deduction alongside cost segregation and other strategies, see <a href="https://therealestatetaxbook.com" target="_blank" rel="noopener">The Real Estate Tax Playbook</a>.</p>
+
+      <h2>Optimization Strategies</h2>
+
+      <p>S Corp owners have several levers to optimize their QBI deduction:</p>
+
+      <ul>
+        <li><strong>Model the salary-QBI tradeoff</strong> -- Run the numbers at multiple salary levels to find the point where the combined payroll tax and QBI deduction impact is most favorable.</li>
+        <li><strong>Maximize retirement contributions</strong> -- Solo 401(k) and defined benefit plan contributions reduce taxable income, potentially keeping it below the SSTB phase-out threshold. This is one of the most powerful planning tools for SSTB owners.</li>
+        <li><strong>Consider entity structuring</strong> -- If you have multiple business activities, some of which are SSTBs and some of which are not, operating them through separate entities can preserve the QBI deduction on the non-SSTB activities.</li>
+        <li><strong>Time income and deductions</strong> -- If your income fluctuates near the threshold, timing strategies such as accelerating deductions or deferring income into specific tax years can maximize the deduction in years where you qualify.</li>
+        <li><strong>Hire employees</strong> -- For high-income owners subject to the W-2 wage test, the wages paid to employees directly increase the QBI deduction cap. The net cost of an employee is reduced by the QBI deduction benefit their wages create.</li>
+      </ul>
+
+      <h2>The Bottom Line</h2>
+
+      <p>The Section 199A QBI deduction can save S Corp owners thousands of dollars per year in federal income tax, but only if the salary, income level, and business type are all managed strategically. For S Corp owners below the income threshold, the planning is straightforward -- set a <a href="/blog/posts/reasonable-compensation-s-corp.html">defensible reasonable salary</a> and let the remaining profit qualify for the 20% deduction. For those above the threshold, the interaction between salary, W-2 wages, SSTB classification, and retirement planning creates a multi-variable optimization problem that benefits significantly from professional modeling.</p>
+
+      <div class="post-cta">
+        <h3>Ready to Implement These Strategies?</h3>
+        <p>AE Tax Advisors models the QBI-salary tradeoff for S Corp owners, identifies the optimal compensation structure, and implements strategies to maximize the Section 199A deduction.</p>
+        <a href="https://aetaxadvisors.com" target="_blank" rel="noopener" class="btn btn--primary">Schedule a Consultation at AE Tax Advisors</a>
+      </div>
+
+    </div>
+  </article>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <div class="footer__brand-title">S Corporation Tax Savings</div>
+          <p class="footer__brand-text">The definitive guide to S Corporation tax optimization for small business owners. Part of the Entity Tax Strategy series by AE Tax Advisors.</p>
+        </div>
+        <div>
+          <div class="footer__heading">Book Series</div>
+          <ul class="footer__links">
+            <li><a href="https://partnershiptaxbook.com">Partnership Tax Planning</a></li>
+            <li><a href="https://ccorptaxbook.com">C Corporation Tax Strategy</a></li>
+            <li><a href="https://thescorptaxbook.com">S Corporation Tax Savings</a></li>
+            <li><a href="https://therealestatetaxbook.com">Real Estate Tax Playbook</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer__heading">AE Tax Services</div>
+          <ul class="footer__links">
+            <li><a href="https://aetaxadvisors.com/cost-segregation-study/" target="_blank" rel="noopener">Cost Segregation</a></li>
+            <li><a href="https://aetaxadvisors.com/short-term-rental-tax-strategy/" target="_blank" rel="noopener">STR Tax Strategy</a></li>
+            <li><a href="https://aetaxadvisors.com/real-estate-tax-planning/" target="_blank" rel="noopener">Real Estate Tax Planning</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer__heading">Resources</div>
+          <ul class="footer__links">
+            <li><a href="/">Home</a></li>
+            <li><a href="/blog/">Blog</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="https://aetaxadvisors.com" target="_blank" rel="noopener">AE Tax Advisors</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>&copy; <span id="current-year">2026</span> AE Tax Advisors. All rights reserved.</span>
+        <a href="https://aetaxadvisors.com" target="_blank" rel="noopener">aetaxadvisors.com</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>
