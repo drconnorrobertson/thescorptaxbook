@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>S Corp Shareholder Basis Tracking: How to Keep the Losses You've Earned</title>
+  <meta name="description" content="S Corp losses are only deductible up to your basis. Learn how stock and debt basis work, the IRS basis adjustment ordering rules, Form 7203 requirements, and what happens to suspended losses.">
+  <meta name="keywords" content="s corp shareholder basis tracking, s corp basis deduct losses, form 7203, s corp stock basis, debt basis s corp, suspended losses s corp, s corp loss limitations">
+  <link rel="canonical" href="https://thescorptaxbook.com/blog/posts/s-corp-shareholder-basis-tracking.html">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="S Corp Shareholder Basis Tracking: How to Keep the Losses You've Earned">
+  <meta property="og:description" content="S Corp losses are only deductible up to your basis. Learn how stock and debt basis work, the IRS basis adjustment ordering rules, and what happens to suspended losses.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://thescorptaxbook.com/blog/posts/s-corp-shareholder-basis-tracking.html">
+  <meta property="og:site_name" content="S Corporation Tax Savings">
+  <meta property="article:published_time" content="2026-07-02">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="S Corp Shareholder Basis Tracking: How to Keep the Losses You've Earned">
+  <meta name="twitter:description" content="S Corp losses are only deductible up to your basis. Learn how stock and debt basis work, the IRS ordering rules, and what happens when losses exceed basis.">
+
+  <!-- Schema.org BlogPosting -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "S Corp Shareholder Basis Tracking: How to Keep the Losses You've Earned",
+    "description": "S Corp losses are only deductible up to your basis. Learn how stock and debt basis work, the IRS basis adjustment ordering rules, Form 7203 requirements, and what happens to suspended losses.",
+    "datePublished": "2026-07-02",
+    "dateModified": "2026-07-02",
+    "author": {
+      "@type": "Organization",
+      "name": "AE Tax Advisors",
+      "url": "https://aetaxadvisors.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "AE Tax Advisors",
+      "url": "https://aetaxadvisors.com"
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://thescorptaxbook.com/blog/posts/s-corp-shareholder-basis-tracking.html"
+    },
+    "url": "https://thescorptaxbook.com/blog/posts/s-corp-shareholder-basis-tracking.html"
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <style>
+    .post-hero {
+      background: linear-gradient(160deg, var(--navy-dark), var(--navy));
+      padding: 140px 0 60px;
+    }
+    .post-hero__back {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--gold);
+      font-size: 0.85rem;
+      font-weight: 600;
+      text-decoration: none;
+      margin-bottom: 24px;
+      transition: color var(--transition);
+    }
+    .post-hero__back:hover { color: var(--gold-light); }
+    .post-hero__back::before { content: '\2190'; }
+    .post-hero__date {
+      font-size: 0.8rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--gold);
+      margin-bottom: 16px;
+    }
+    .post-hero__title {
+      font-size: 2.5rem;
+      color: var(--white);
+      line-height: 1.15;
+      max-width: 800px;
+    }
+    .post-content {
+      padding: 64px 0 80px;
+    }
+    .post-content .container--narrow {
+      max-width: 760px;
+    }
+    .post-content h2 {
+      font-size: 1.6rem;
+      margin-top: 48px;
+      margin-bottom: 20px;
+      color: var(--navy);
+    }
+    .post-content h3 {
+      font-size: 1.25rem;
+      margin-top: 36px;
+      margin-bottom: 16px;
+      color: var(--navy);
+    }
+    .post-content p {
+      font-size: 1.02rem;
+      color: var(--gray-700);
+      line-height: 1.8;
+      margin-bottom: 20px;
+    }
+    .post-content ul, .post-content ol {
+      margin-bottom: 20px;
+      padding-left: 24px;
+    }
+    .post-content li {
+      font-size: 1.02rem;
+      color: var(--gray-700);
+      line-height: 1.8;
+      margin-bottom: 8px;
+    }
+    .post-content strong {
+      color: var(--navy);
+    }
+    .post-content a {
+      color: var(--gold-dark);
+      text-decoration: underline;
+    }
+    .post-content a:hover {
+      color: var(--navy);
+    }
+    .post-cta {
+      background: linear-gradient(135deg, rgba(197, 165, 114, 0.08), rgba(197, 165, 114, 0.03));
+      border: 1px solid rgba(197, 165, 114, 0.25);
+      border-radius: var(--radius-lg);
+      padding: 36px;
+      margin-top: 48px;
+      text-align: center;
+    }
+    .post-cta h3 {
+      margin-top: 0;
+      font-size: 1.35rem;
+      margin-bottom: 12px;
+    }
+    .post-cta p {
+      margin-bottom: 24px;
+      color: var(--gray-600);
+    }
+    @media (max-width: 768px) {
+      .post-hero__title { font-size: 1.75rem; }
+      .post-content h2 { font-size: 1.35rem; }
+      .post-cta { padding: 1.25rem !important; }
+    }
+    @media (max-width: 480px) {
+      .post-cta { padding: 1rem !important; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="/" class="nav__brand">
+        <div class="nav__icon">SC</div>
+        S Corp Tax Savings
+      </a>
+      <ul class="nav__links">
+        <li><a href="/#chapters">Chapters</a></li>
+        <li><a href="/#audience">Who It's For</a></li>
+        <li><a href="/#series">Series</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/blog/">Blog</a></li>
+        <li><a href="https://aetaxadvisors.com" target="_blank" rel="noopener" class="nav__cta">AE Tax Advisors</a></li>
+      </ul>
+      <button class="nav__toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Post Hero -->
+  <section class="post-hero">
+    <div class="container">
+      <a href="/blog/" class="post-hero__back">Back to Blog</a>
+      <div class="post-hero__date">July 2, 2026</div>
+      <h1 class="post-hero__title">S Corp Shareholder Basis Tracking: How to Keep the Losses You've Earned</h1>
+    </div>
+  </section>
+
+  <!-- Post Content -->
+  <article class="post-content">
+    <div class="container container--narrow">
+
+      <p>One of the most valuable things about operating as an S Corporation is that losses flow through to your personal return. A bad year at the business -- slow revenue, heavy equipment purchases, startup costs -- can create a loss that directly reduces your other taxable income, potentially saving you tens of thousands of dollars on your tax bill. But there is a catch that surprises many S Corp owners every year: you can only deduct losses up to your basis in the company. If you have not been tracking basis carefully, you may find yourself sitting on a large loss that the IRS will not let you take.</p>
+
+      <p>This is not a technicality you can work around. The rules are in IRC Section 1366 and 1367, they are strictly enforced, and the IRS now requires a separate form -- Form 7203 -- specifically to report your basis calculations. Here is exactly how basis works, why the ordering rules matter, and how to make sure you never lose a deduction you have legitimately earned.</p>
+
+      <h2>What Basis Actually Means</h2>
+
+      <p>In the context of an S Corporation, your basis is essentially the IRS's measure of how much economic investment you have at risk in the company. It has two separate components -- stock basis and debt basis -- and the two work differently.</p>
+
+      <p><strong>Stock basis</strong> is where most activity happens. It starts with what you contributed to the S Corp to get your shares: cash you put in, property you transferred, or the existing basis of the company at the time of S election. From there, it goes up and down every year based on your share of the company's activity.</p>
+
+      <p><strong>Debt basis</strong> is separate and only comes into play when your stock basis hits zero. It represents loans you -- the shareholder -- have made directly to the S Corp. A bank loan does not give you debt basis. A third-party loan you personally guaranteed does not give you debt basis (this is an important difference from partnerships, where guaranteed debt often does add to basis). Only a loan you actually made directly to the corporation creates S Corp debt basis.</p>
+
+      <h2>How Stock Basis Changes Each Year</h2>
+
+      <p>The IRS requires you to adjust your stock basis every year in a specific order. Getting this order wrong produces incorrect results. Under IRC Section 1367, here is the sequence:</p>
+
+      <ol>
+        <li><strong>Start with prior year ending basis.</strong></li>
+        <li><strong>Add income items:</strong> your share of ordinary income, separately stated income items, and tax-exempt income (such as PPP loan forgiveness).</li>
+        <li><strong>Subtract distributions.</strong> Non-dividend distributions reduce basis; they do not trigger tax as long as basis remains positive.</li>
+        <li><strong>Subtract non-deductible, non-capital expenses.</strong> This includes things like 50% of non-deductible meals, penalties, and certain fines.</li>
+        <li><strong>Subtract loss and deduction items.</strong> This is where your ordinary losses, Section 179 deductions, and other pass-through deductions reduce basis.</li>
+      </ol>
+
+      <p>The critical insight here is that distributions come before losses in the ordering. This means a distribution can bring your basis to zero before the loss allocation ever happens -- turning a deductible loss into a suspended one. Many owners don't realize this until their CPA delivers bad news in April.</p>
+
+      <h2>A Concrete Example: How Suspended Losses Happen</h2>
+
+      <p>Say you own 100% of an S Corp. Here is your situation going into 2025:</p>
+
+      <ul>
+        <li>Opening stock basis: $30,000</li>
+        <li>2025 income allocated to you: $0 (breakeven first half of year)</li>
+        <li>Distribution you took mid-year: $25,000</li>
+        <li>2025 operating loss allocated to you: $40,000</li>
+      </ul>
+
+      <p>Following the ordering rules: Start with $30,000. No income to add. Subtract $25,000 in distributions, leaving $5,000 of basis. Now apply the $40,000 loss -- but you only have $5,000 of basis remaining. You can deduct $5,000 of the loss this year. The remaining $35,000 is suspended and carries forward to future years.</p>
+
+      <p>That $35,000 is not lost forever. It sits waiting until you have sufficient basis in future years to absorb it. But it doesn't automatically become deductible when the business eventually has a good year -- you need to track the carryforward and apply it correctly when basis becomes available again.</p>
+
+      <p>Now imagine if you had simply not taken that $25,000 distribution mid-year and instead taken it in January of the following year (after the loss allocation). Your full $40,000 loss would have been deductible, and you would have still received the same cash. The timing of distributions relative to the tax year matters significantly.</p>
+
+      <h2>Debt Basis: The Safety Net When Stock Basis Runs Out</h2>
+
+      <p>If your stock basis is zero but you have made direct loans to the S Corp, those loans create debt basis that you can use to absorb additional losses. The same ordering applies -- losses are first applied against stock basis, then against debt basis.</p>
+
+      <p>When the S Corp repays your loan, that repayment reduces your debt basis. If the repayment happens when your debt basis is below the original loan amount (because losses have already been allocated against it), part of the repayment may be taxable -- treated as either ordinary income or capital gain depending on the circumstances.</p>
+
+      <p>This creates a planning opportunity that many S Corp owners miss: if you need to inject capital into the business anyway, structuring it as a loan rather than a capital contribution preserves the option of tax-free repayment (up to basis) and creates debt basis that can absorb future losses. The tradeoff is that debt basis is restored before losses are re-allocated if income resumes, so the mechanics need to be modeled out for your specific situation.</p>
+
+      <h2>Form 7203: The IRS Now Requires You to Show Your Work</h2>
+
+      <p>Starting with the 2021 tax year, the IRS began requiring S Corp shareholders to file Form 7203 (S Corporation Shareholder Stock and Debt Basis Limitations) in four situations:</p>
+
+      <ul>
+        <li>You are claiming a loss deduction from the S Corp.</li>
+        <li>You received a non-dividend distribution.</li>
+        <li>You disposed of S Corp stock.</li>
+        <li>The S Corp repaid a loan you made to it.</li>
+      </ul>
+
+      <p>Form 7203 is attached to your personal Form 1040. It requires you to show opening basis, all adjustments in order, and ending basis. If your basis calculations are inconsistent with your Schedule K-1 or your prior year returns, that will create a problem. The form effectively forces shareholders to have basis documentation -- if you file Form 7203 and your basis numbers are incorrect, you have created a paper trail of the error.</p>
+
+      <p>The practical message here is that ad-hoc basis tracking does not work anymore. You need a formal basis schedule maintained each year, updated when you receive your K-1, and reconciled before your personal return is filed.</p>
+
+      <h2>What Happens to Suspended Losses When You Sell or Liquidate</h2>
+
+      <p>Suspended losses don't disappear when you sell your S Corp stock -- but whether you can ever use them depends on the circumstances of the sale.</p>
+
+      <p>If you sell your S Corp stock and realize a gain, the suspended losses can offset that gain (reducing capital gain) as long as you still have basis. If you sell at a loss, the suspended losses are added to the capital loss from the sale. If the S Corp simply liquidates and distributes remaining assets, the final liquidating distributions are treated as received in exchange for your stock, and suspended losses can be used to offset any gain from those distributions.</p>
+
+      <p>The one scenario where suspended losses are permanently lost is if you transfer the stock as a gift. The suspended losses do not transfer to the recipient. They simply disappear. This is one reason gifting S Corp stock with suspended losses is almost always the wrong estate planning move -- you should consider <a href="https://partnershiptaxbook.com" target="_blank" rel="noopener">partnership structures</a> if you anticipate gifting ownership interests that carry loss carryforwards, since partnership basis rules handle this differently.</p>
+
+      <h2>Practical Basis Tracking: What You Need to Do Each Year</h2>
+
+      <p>Maintaining accurate basis is not complicated, but it requires discipline. Here is the year-by-year process:</p>
+
+      <ol>
+        <li><strong>When you receive your K-1</strong> each year, use it to update your basis schedule. The K-1 shows income, losses, and distributions allocated to you. Apply them in the correct order: income items first, then distributions, then non-deductible expenses, then losses.</li>
+        <li><strong>Track stock basis and debt basis separately.</strong> Do not combine them. Losses exhaust stock basis first, then debt basis. Debt basis is restored before stock basis when income resumes.</li>
+        <li><strong>Log every shareholder loan with documentation.</strong> Date, amount, interest rate, and repayment schedule. The loan should be on proper terms to avoid reclassification as a capital contribution.</li>
+        <li><strong>Track suspended loss carryforwards by year.</strong> When you eventually have sufficient basis to absorb them, you need to know the amount and character (ordinary vs. Section 179 vs. charitable, for example) to apply them correctly.</li>
+        <li><strong>File Form 7203 whenever required.</strong> Have your CPA prepare this as part of your 1040. If you are self-preparing, use the IRS instructions carefully -- the form is not complicated but the ordering matters.</li>
+      </ol>
+
+      <p>If you have never maintained a formal basis schedule, you may need to reconstruct your basis going back to when the S Corp was formed or when you acquired your shares. This is worth doing if you have significant suspended losses sitting on prior returns. A reconstructed basis schedule, properly documented, is generally acceptable to the IRS as long as it is consistent with your prior returns and the company's records.</p>
+
+      <h2>How Basis Interacts With Other S Corp Strategies</h2>
+
+      <p>Basis tracking doesn't exist in isolation -- it connects directly to the other core S Corp tax strategies. Your <a href="/blog/posts/qbi-deduction-s-corp-guide.html">Section 199A QBI deduction</a> is calculated based on qualified business income, which means suspended losses that become deductible in a future year can affect your QBI calculation. Similarly, the salary you pay yourself affects how much income flows through as a distribution vs. compensation, which in turn affects how quickly your stock basis grows or is drawn down.</p>
+
+      <p>For S Corp owners who also own real estate, the interaction is important. Real estate held inside an S Corp is generally problematic for tax purposes -- S Corps cannot take advantage of the passive activity rules the same way individuals and partnerships can, cost segregation benefits are limited, and 1031 exchanges cannot be done at the S Corp level. If you are a real estate investor, you likely want to hold properties outside the S Corp rather than inside it. For a full breakdown of real estate tax strategy, see the <a href="https://therealestatetaxbook.com" target="_blank" rel="noopener">Real Estate Tax Playbook</a>, which covers entity structuring for rental and short-term rental properties in depth.</p>
+
+      <h2>The Bottom Line</h2>
+
+      <p>S Corp basis tracking is one of those areas where the upside is significant and the downside -- losing deductions you legitimately earned -- is completely avoidable with the right systems. The rules are not complicated once you understand the ordering logic. The hard part is simply the discipline to maintain the schedule every year and file Form 7203 when required.</p>
+
+      <p>If your S Corp has had a mix of profitable and unprofitable years, or if you have taken distributions alongside loss years, there is a real chance your basis records are incomplete. The time to fix that is now -- before the IRS asks, and before you find yourself unable to deduct a loss you were counting on.</p>
+
+      <div class="post-cta">
+        <h3>Ready to Implement This Strategy?</h3>
+        <p>Ready to implement this strategy? Schedule a complimentary consultation with AE Tax Advisors at <a href="https://aetaxadvisors.com" target="_blank" rel="noopener">aetaxadvisors.com</a>.</p>
+        <a href="https://aetaxadvisors.com" target="_blank" rel="noopener" class="btn btn--primary">Schedule a Consultation at AE Tax Advisors</a>
+      </div>
+
+    </div>
+  </article>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <div class="footer__brand-title">S Corporation Tax Savings</div>
+          <p class="footer__brand-text">The definitive guide to S Corporation tax optimization for small business owners. Part of the Entity Tax Strategy series by AE Tax Advisors.</p>
+        </div>
+        <div>
+          <div class="footer__heading">Book Series</div>
+          <ul class="footer__links">
+            <li><a href="https://partnershiptaxbook.com">Partnership Tax Planning</a></li>
+            <li><a href="https://ccorptaxbook.com">C Corporation Tax Strategy</a></li>
+            <li><a href="https://thescorptaxbook.com">S Corporation Tax Savings</a></li>
+            <li><a href="https://therealestatetaxbook.com">Real Estate Tax Playbook</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer__heading">AE Tax Services</div>
+          <ul class="footer__links">
+            <li><a href="https://aetaxadvisors.com/cost-segregation-study/" target="_blank" rel="noopener">Cost Segregation</a></li>
+            <li><a href="https://aetaxadvisors.com/short-term-rental-tax-strategy/" target="_blank" rel="noopener">STR Tax Strategy</a></li>
+            <li><a href="https://aetaxadvisors.com/real-estate-tax-planning/" target="_blank" rel="noopener">Real Estate Tax Planning</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer__heading">Resources</div>
+          <ul class="footer__links">
+            <li><a href="/">Home</a></li>
+            <li><a href="/blog/">Blog</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="https://aetaxadvisors.com" target="_blank" rel="noopener">AE Tax Advisors</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>&copy; <span id="current-year">2026</span> AE Tax Advisors. All rights reserved.</span>
+        <a href="https://aetaxadvisors.com" target="_blank" rel="noopener">aetaxadvisors.com</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>
