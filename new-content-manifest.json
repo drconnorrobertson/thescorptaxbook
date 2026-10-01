@@ -1,0 +1,44 @@
+[
+  {
+    "path": "/reading-guides/reasonable-salary-before-distributions",
+    "url": "https://www.thescorptaxbook.com/reading-guides/reasonable-salary-before-distributions",
+    "title": "S Corporation Salary Before Distributions: A Worked Planning Example",
+    "description": "A profitable S corporation owner needs a compensation analysis before choosing distributions. This guide explains how to connect actual services, payroll and the cash available for distributions."
+  },
+  {
+    "path": "/reading-guides/stock-debt-basis-loss-example",
+    "url": "https://www.thescorptaxbook.com/reading-guides/stock-debt-basis-loss-example",
+    "title": "S Corporation Stock and Debt Basis: Why a K-1 Loss May Be Suspended",
+    "description": "A K-1 loss does not automatically become a current personal deduction. Follow a simple basis example and learn which records support an S corporation shareholder's loss."
+  },
+  {
+    "path": "/reading-guides/accountable-plan-reimbursement-file",
+    "url": "https://www.thescorptaxbook.com/reading-guides/accountable-plan-reimbursement-file",
+    "title": "S Corporation Accountable Plans: Building a Reimbursement File",
+    "description": "Business reimbursement works best when the policy, expense evidence and payment records agree. Use this guide to organize owner expense reimbursements without treating every personal purchase as a deduction."
+  },
+  {
+    "path": "/reading-guides/owner-health-insurance-coordination",
+    "url": "https://www.thescorptaxbook.com/reading-guides/owner-health-insurance-coordination",
+    "title": "More Than 2 Percent S Corporation Owners: Health Insurance Coordination",
+    "description": "Owner health insurance requires coordination between the company, payroll and the personal return. Learn why paying a premium is only one part of the deduction review."
+  },
+  {
+    "path": "/reading-guides/s-corp-retirement-wages-distributions",
+    "url": "https://www.thescorptaxbook.com/reading-guides/s-corp-retirement-wages-distributions",
+    "title": "S Corporation Retirement Contributions: Wages and Distributions Matter Differently",
+    "description": "An S corporation retirement model must distinguish wages from distributions. Use a planning example to connect owner compensation, employee coverage and contributions."
+  },
+  {
+    "path": "/reading-guides/s-corp-excess-business-loss-2026",
+    "url": "https://www.thescorptaxbook.com/reading-guides/s-corp-excess-business-loss-2026",
+    "title": "S Corporation Losses and the 2026 Excess Business Loss Limit",
+    "description": "A shareholder can clear the basis and passive activity tests and still face Section 461(l). Learn how the 2026 excess business loss limitation fits an S corporation loss review."
+  },
+  {
+    "path": "/reading-guides",
+    "url": "https://www.thescorptaxbook.com/reading-guides",
+    "title": "S Corporation Tax Savings: AE Tax Advisors Companion Reading Guides",
+    "description": "Read six focused s corporation tax savings companion guides with worked examples, records checklists, IRS references and links to published AE Tax Advisors case studies."
+  }
+]

@@ -1,0 +1,116 @@
+{
+  "book": "S Corporation Tax Savings",
+  "domain": "www.thescorptaxbook.com",
+  "case": "s-corporation",
+  "intro": "Start with the work the owner performs, then follow the money through payroll, distributions, reimbursements and shareholder basis. An S corporation election creates a reporting system; the election alone does not establish a tax benefit.",
+  "articles": [
+    [
+      "reasonable-salary-before-distributions",
+      "S Corporation Salary Before Distributions: A Worked Planning Example",
+      "A profitable S corporation owner needs a compensation analysis before choosing distributions. This guide explains how to connect actual services, payroll and the cash available for distributions.",
+      "The first question is what the shareholder actually does. A founder who sells, delivers the service, supervises employees and manages finances performs several jobs. Document the time devoted to each role, relevant experience, location and comparable pay. Gross revenue alone does not tell you the value of those services. A business with employees and substantial equipment may have a different earnings profile from a consultant whose revenue comes almost entirely from personal labor.",
+      "Build the salary decision from services, not a percentage",
+      "Payments to an owner who performs substantial services require reasonable compensation treatment. There is no universal salary-to-distribution ratio that replaces an analysis. Review salary, bonuses, benefits and payroll filings together. A proposed distribution should trigger a check that the compensation conclusion still fits the current year. Rapid revenue growth, a new service line or a change in owner hours can make last year's documentation stale.",
+      "A consulting corporation has $240,000 available before owner compensation and related employer payroll costs. Its compensation analysis supports $120,000 of salary for the owner's duties. The amount potentially available for distributions is not simply $120,000: employer payroll taxes, benefits, overhead, debt service and reserves still consume cash. This illustration establishes no recommended salary and promises no savings. It shows why a payroll model and cash model must accompany the salary study.",
+      [
+        "List owner duties and hours by role.",
+        "Retain compensation comparisons and the reason selected.",
+        "Reconcile wages to payroll returns and the W-2.",
+        "Review cash reserves before authorizing distributions."
+      ],
+      "Can I use a fixed 60/40 split?",
+      "A fixed split does not establish reasonable compensation. Support the pay with the services performed and relevant compensation evidence.",
+      "businesses/small-businesses-self-employed/s-corporation-compensation-and-medical-insurance-issues"
+    ],
+    [
+      "stock-debt-basis-loss-example",
+      "S Corporation Stock and Debt Basis: Why a K-1 Loss May Be Suspended",
+      "A K-1 loss does not automatically become a current personal deduction. Follow a simple basis example and learn which records support an S corporation shareholder's loss.",
+      "Shareholder stock basis and qualifying debt basis are tax schedules, not the balance in the company checking account. Basis generally changes as capital is contributed, income is allocated, distributions occur and deductions are assigned. The shareholder needs a continuous record because an error in one year can affect later deductions and distribution treatment. The corporation's equity balance is useful accounting evidence, but it is not a replacement for the shareholder calculation.",
+      "Separate the basis test from the other loss limits",
+      "For a loss deduction, stock basis and debt basis are tested before the at-risk, passive activity and excess business loss rules. Passing the first test does not prove the entire loss is deductible. A corporate bank loan that the shareholder merely guarantees generally does not itself create shareholder debt basis. Direct indebtedness and the actual transaction facts matter. Track suspended amounts by the rule that stopped them instead of combining every unused loss into one number.",
+      "Assume a shareholder has $25,000 of stock basis, no distributions, no other basis adjustments and $10,000 of qualifying debt basis. A $50,000 loss reaches a $35,000 basis ceiling, leaving $15,000 suspended under the basis rules. The $35,000 still faces the later applicable limitations. A separate passive activity suspension would require a separate schedule. This simplified example excludes ordering complications and is not a calculation for a specific return.",
+      [
+        "Carry forward the prior shareholder basis schedule.",
+        "Identify contributions, distributions and income adjustments.",
+        "Retain direct loan documents and actual funding evidence.",
+        "Separate basis suspensions from other carryforwards."
+      ],
+      "Does a loan guarantee create debt basis?",
+      "A guarantee by itself generally does not establish debt basis. Review actual payments and whether the corporation is directly indebted to the shareholder.",
+      "businesses/small-businesses-self-employed/s-corporation-stock-and-debt-basis"
+    ],
+    [
+      "accountable-plan-reimbursement-file",
+      "S Corporation Accountable Plans: Building a Reimbursement File",
+      "Business reimbursement works best when the policy, expense evidence and payment records agree. Use this guide to organize owner expense reimbursements without treating every personal purchase as a deduction.",
+      "Owners often pay legitimate company costs with personal funds. Without a clear reimbursement process, those amounts can become mixed with salary, distributions or unreimbursed personal expenses. Start with the transaction: who paid, what business purpose it served, when it happened and whether the company or owner already deducted it. A policy helps organize the process, but a policy without substantiation does not establish accountable plan treatment.",
+      "Connect each payment to its supporting expense",
+      "An accountable arrangement requires a business connection, adequate substantiation and return of excess advances within the applicable reasonable period. Record the amount and nature of each expense. Mileage needs a business travel record; an expense with personal use requires allocation. A flat monthly payment with no expense support should not be labeled a tax-free reimbursement merely because the company adopted a document. Payroll treatment may be required when payments do not qualify.",
+      "An owner submits $620 of documented business travel costs and $180 of personal meals from the same trip. The reimbursement reviewer approves only the business items after checking whether meal limitations or other rules apply. If the company previously advanced $900, reconcile that advance to the allowable substantiated amount and return any excess. The file should show the report, receipts, approval and settlement instead of a bank transfer labeled reimbursement with no explanation.",
+      [
+        "Adopt a practical reimbursement policy.",
+        "Keep receipts, business purpose and travel details.",
+        "Allocate mixed business and personal expenses.",
+        "Reconcile advances and payroll coding."
+      ],
+      "Can the company reimburse a fixed amount every month?",
+      "It can make advances, but accountable treatment requires substantiation and settlement of excess amounts. A fixed payment alone does not meet those requirements.",
+      "publications/p15"
+    ],
+    [
+      "owner-health-insurance-coordination",
+      "More Than 2 Percent S Corporation Owners: Health Insurance Coordination",
+      "Owner health insurance requires coordination between the company, payroll and the personal return. Learn why paying a premium is only one part of the deduction review.",
+      "A shareholder owning more than 2 percent of an S corporation is subject to special benefit rules. The ownership review includes relevant attribution rules, so a family arrangement should not be evaluated only from the name on a stock certificate. Before the final payroll run, confirm who paid the premium, whether the company reimbursed a personally paid premium and whether the arrangement meets the applicable requirements.",
+      "Match premium payment with reporting and eligibility",
+      "Qualifying company-paid or reimbursed premiums for these shareholders generally need inclusion in W-2 Box 1, with special payroll tax treatment when the conditions apply. The shareholder's potential self-employed health insurance deduction is a separate question. Eligibility for subsidized employer coverage through the shareholder or spouse can affect that deduction. Do not assume that a corporation deduction, W-2 reporting and a personal deduction all follow automatically from the same bank payment.",
+      "An owner personally pays $14,400 of annual health premiums. The company reimburses the amount under an established arrangement and the payroll team reviews the required W-2 reporting. The personal preparer then checks eligibility month by month, including available coverage through a spouse's employer and the applicable income limit. If one part of the process is missing, a year-end premium total alone cannot establish the final deduction.",
+      [
+        "Confirm ownership and family attribution.",
+        "Retain premium invoices and payment evidence.",
+        "Coordinate company reimbursement with payroll.",
+        "Check other employer coverage and personal eligibility."
+      ],
+      "Can I deduct the premium just because I own an S corporation?",
+      "Ownership alone is insufficient. Company payment or reimbursement, reporting and the shareholder's deduction eligibility need separate review.",
+      "businesses/small-businesses-self-employed/s-corporation-compensation-and-medical-insurance-issues"
+    ],
+    [
+      "s-corp-retirement-wages-distributions",
+      "S Corporation Retirement Contributions: Wages and Distributions Matter Differently",
+      "An S corporation retirement model must distinguish wages from distributions. Use a planning example to connect owner compensation, employee coverage and contributions.",
+      "An owner may receive both wages and distributions, but those categories do not provide identical retirement plan inputs. Start with the plan type and eligible compensation definition. Then review all employees, ownership relationships and any related businesses. The goal is a funded, compliant plan that fits the business, not simply the largest number a calculator produces for the owner.",
+      "Build contributions around eligible compensation and the plan",
+      "For S corporation shareholder-employees, retirement contributions generally relate to eligible compensation from employment rather than shareholder distributions. Annual contribution limits, age provisions and employee coverage depend on the plan and year. Employer contributions also require attention to plan terms and applicable limits. A solo arrangement must be reconsidered when eligible employees enter the business. Related entities may change the coverage analysis even if they use separate payroll systems.",
+      "An owner has $90,000 of W-2 wages and $160,000 of distributions. Treating $250,000 as retirement compensation would overstate the input. The administrator first uses the eligible wage definition, then tests the plan's current-year limits and contributions for covered employees. If the business expects to hire staff next year, the cost forecast includes those employees instead of projecting an owner-only contribution indefinitely.",
+      [
+        "Confirm the plan type and eligible compensation.",
+        "Review wages separately from distributions.",
+        "Identify employees and related employers.",
+        "Model funding, deadlines and ongoing administration."
+      ],
+      "Do S corporation distributions increase retirement compensation?",
+      "Distributions generally do not count as employment compensation for this purpose. The plan's compensation definition and applicable rules still control.",
+      "retirement-plans/retirement-plans-for-small-entities-and-self-employed"
+    ],
+    [
+      "s-corp-excess-business-loss-2026",
+      "S Corporation Losses and the 2026 Excess Business Loss Limit",
+      "A shareholder can clear the basis and passive activity tests and still face Section 461(l). Learn how the 2026 excess business loss limitation fits an S corporation loss review.",
+      "An S corporation reports the shareholder's share of income and deductions, but the individual applies several limits on the personal return. The excess business loss calculation is an aggregate noncorporate taxpayer calculation across eligible businesses. It is not a separate limit for each corporation, and employee wages do not count as business income for this test. A high salary therefore does not automatically increase the amount of business loss allowed.",
+      "Apply the rules in sequence and preserve the carryforward identity",
+      "For 2026 the excess business loss threshold is $256,000, or $512,000 on a joint return. Apply applicable basis, at-risk and passive activity restrictions first. The remaining eligible business deductions are compared with eligible business income and the threshold. An excess business loss is disallowed in the current year and treated as an NOL carryforward under the applicable rules. It is different from a basis-suspended loss or a passive activity carryforward.",
+      "A joint filer has $700,000 of eligible net business loss after the earlier limitations and $400,000 of W-2 income. Assume no other business items or adjustments. The 2026 threshold leaves $188,000 subject to the excess business loss limitation: $700,000 minus $512,000. The wages do not erase that excess. This illustration does not calculate taxable income, NOL usage or state tax, and a real return requires the complete Form 461 inputs.",
+      [
+        "Calculate shareholder basis and earlier loss limits.",
+        "Aggregate all eligible business income and deductions.",
+        "Use the threshold for the correct year and status.",
+        "Track the resulting NOL separately from suspended losses."
+      ],
+      "Is the excess business loss permanently lost?",
+      "The disallowed amount becomes an NOL carryforward, subject to later NOL rules. The timing and usable amount depend on the future return.",
+      "pub/irs-drop/rp-25-32.pdf"
+    ]
+  ]
+}

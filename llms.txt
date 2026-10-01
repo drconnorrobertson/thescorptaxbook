@@ -1,0 +1,20 @@
+# S Corporation Tax Savings
+
+Published by AE Tax Advisors. Original companion education with hypothetical examples. Not book excerpts, independent reviews, audited outcomes or personalized tax advice.
+
+## Companion index
+
+- [S Corporation Salary Before Distributions: A Worked Planning Example](https://www.thescorptaxbook.com/reading-guides/reasonable-salary-before-distributions): A profitable S corporation owner needs a compensation analysis before choosing distributions. This guide explains how to connect actual services, payroll and the cash available for distributions.
+- [S Corporation Stock and Debt Basis: Why a K-1 Loss May Be Suspended](https://www.thescorptaxbook.com/reading-guides/stock-debt-basis-loss-example): A K-1 loss does not automatically become a current personal deduction. Follow a simple basis example and learn which records support an S corporation shareholder's loss.
+- [S Corporation Accountable Plans: Building a Reimbursement File](https://www.thescorptaxbook.com/reading-guides/accountable-plan-reimbursement-file): Business reimbursement works best when the policy, expense evidence and payment records agree. Use this guide to organize owner expense reimbursements without treating every personal purchase as a deduction.
+- [More Than 2 Percent S Corporation Owners: Health Insurance Coordination](https://www.thescorptaxbook.com/reading-guides/owner-health-insurance-coordination): Owner health insurance requires coordination between the company, payroll and the personal return. Learn why paying a premium is only one part of the deduction review.
+- [S Corporation Retirement Contributions: Wages and Distributions Matter Differently](https://www.thescorptaxbook.com/reading-guides/s-corp-retirement-wages-distributions): An S corporation retirement model must distinguish wages from distributions. Use a planning example to connect owner compensation, employee coverage and contributions.
+- [S Corporation Losses and the 2026 Excess Business Loss Limit](https://www.thescorptaxbook.com/reading-guides/s-corp-excess-business-loss-2026): A shareholder can clear the basis and passive activity tests and still face Section 461(l). Learn how the 2026 excess business loss limitation fits an S corporation loss review.
+- [S Corporation Tax Savings: AE Tax Advisors Companion Reading Guides](https://www.thescorptaxbook.com/reading-guides): Read six focused s corporation tax savings companion guides with worked examples, records checklists, IRS references and links to published AE Tax Advisors case studies.
+
+## Related resources
+
+- [Existing learning library](https://www.thescorptaxbook.com/blog)
+- [AE Tax Advisors](https://www.aetaxadvisors.com/)
+- [Published AE case studies](https://aetaxadvisorsreviews.com/case-studies/)
+- [Case-study methodology](https://aetaxadvisorsreviews.com/case-studies/methodology/)
