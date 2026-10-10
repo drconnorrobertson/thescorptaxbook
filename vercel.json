@@ -31,7 +31,458 @@
     }
   ],
   "rewrites": [],
-  "redirects": [],
-  "buildCommand": "node scripts/prepare-static.mjs && node brand-build.cjs && node scripts/brand-isolation.mjs dist && node scripts/brand-isolation.mjs dist --check && node scripts/brand-check.mjs dist",
+  "redirects": [
+    {
+      "source": "/blog/retirement-plans-checklist",
+      "destination": "/blog/retirement-plans-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/shareholder-distributions-advanced",
+      "destination": "/blog/shareholder-distributions-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/health-insurance-questions",
+      "destination": "/blog/health-insurance-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/s-election-advanced",
+      "destination": "/blog/s-election-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/retirement-plans-questions",
+      "destination": "/blog/retirement-plans-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/health-insurance-implementation",
+      "destination": "/blog/health-insurance-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/reasonable-compensation-red-flags",
+      "destination": "/blog/reasonable-compensation-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/retirement-plans-mistakes",
+      "destination": "/blog/retirement-plans-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/shareholder-distributions-examples",
+      "destination": "/blog/shareholder-distributions-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/s-election-red-flags",
+      "destination": "/blog/s-election-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/shareholder-basis-questions",
+      "destination": "/blog/shareholder-basis-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/shareholder-basis-mistakes",
+      "destination": "/blog/shareholder-basis-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/shareholder-basis-advanced",
+      "destination": "/blog/shareholder-basis-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/s-corp-eligibility-implementation",
+      "destination": "/blog/s-corp-eligibility-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/health-insurance-checklist",
+      "destination": "/blog/health-insurance-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/retirement-plans-examples",
+      "destination": "/blog/retirement-plans-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/state-s-corp-tax-scorecard",
+      "destination": "/blog/state-s-corp-tax-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/health-insurance-faq",
+      "destination": "/blog/health-insurance-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/state-s-corp-tax-red-flags",
+      "destination": "/blog/state-s-corp-tax-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/s-corp-exit-faq",
+      "destination": "/blog/s-corp-exit-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/reasonable-compensation-checklist",
+      "destination": "/blog/reasonable-compensation-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/health-insurance-red-flags",
+      "destination": "/blog/health-insurance-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/s-election-faq",
+      "destination": "/blog/s-election-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/state-s-corp-tax-examples",
+      "destination": "/blog/state-s-corp-tax-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/s-corp-eligibility-red-flags",
+      "destination": "/blog/s-corp-eligibility-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/retirement-plans-red-flags",
+      "destination": "/blog/retirement-plans-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/s-corp-eligibility-scorecard",
+      "destination": "/blog/s-corp-eligibility-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/s-election-examples",
+      "destination": "/blog/s-election-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/retirement-plans-scorecard",
+      "destination": "/blog/retirement-plans-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/owner-payroll-red-flags",
+      "destination": "/blog/owner-payroll-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/owner-payroll-faq",
+      "destination": "/blog/owner-payroll-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/s-corp-eligibility-questions",
+      "destination": "/blog/s-corp-eligibility-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/shareholder-basis-implementation",
+      "destination": "/blog/shareholder-basis-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/owner-payroll-checklist",
+      "destination": "/blog/owner-payroll-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/shareholder-distributions-questions",
+      "destination": "/blog/shareholder-distributions-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/s-election-scorecard",
+      "destination": "/blog/s-election-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/state-s-corp-tax-mistakes",
+      "destination": "/blog/state-s-corp-tax-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/state-s-corp-tax-faq",
+      "destination": "/blog/state-s-corp-tax-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/shareholder-distributions-mistakes",
+      "destination": "/blog/shareholder-distributions-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/s-corp-eligibility-advanced",
+      "destination": "/blog/s-corp-eligibility-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/s-corp-exit-mistakes",
+      "destination": "/blog/s-corp-exit-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/s-corp-exit-scorecard",
+      "destination": "/blog/s-corp-exit-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/s-corp-exit-implementation",
+      "destination": "/blog/s-corp-exit-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/reasonable-compensation-implementation",
+      "destination": "/blog/reasonable-compensation-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/owner-payroll-scorecard",
+      "destination": "/blog/owner-payroll-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/s-election-checklist",
+      "destination": "/blog/s-election-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/s-corp-exit-advanced",
+      "destination": "/blog/s-corp-exit-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/retirement-plans-advanced",
+      "destination": "/blog/retirement-plans-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/state-s-corp-tax-checklist",
+      "destination": "/blog/state-s-corp-tax-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/state-s-corp-tax-advanced",
+      "destination": "/blog/state-s-corp-tax-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/shareholder-distributions-faq",
+      "destination": "/blog/shareholder-distributions-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/health-insurance-advanced",
+      "destination": "/blog/health-insurance-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/reasonable-compensation-examples",
+      "destination": "/blog/reasonable-compensation-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/s-election-questions",
+      "destination": "/blog/s-election-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/s-corp-exit-questions",
+      "destination": "/blog/s-corp-exit-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/retirement-plans-faq",
+      "destination": "/blog/retirement-plans-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/s-corp-exit-examples",
+      "destination": "/blog/s-corp-exit-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/s-corp-eligibility-checklist",
+      "destination": "/blog/s-corp-eligibility-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/s-election-implementation",
+      "destination": "/blog/s-election-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/shareholder-basis-examples",
+      "destination": "/blog/shareholder-basis-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/retirement-plans-implementation",
+      "destination": "/blog/retirement-plans-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/s-corp-exit-checklist",
+      "destination": "/blog/s-corp-exit-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/owner-payroll-advanced",
+      "destination": "/blog/owner-payroll-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/health-insurance-examples",
+      "destination": "/blog/health-insurance-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/s-corp-eligibility-faq",
+      "destination": "/blog/s-corp-eligibility-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/s-corp-eligibility-mistakes",
+      "destination": "/blog/s-corp-eligibility-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/owner-payroll-implementation",
+      "destination": "/blog/owner-payroll-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/state-s-corp-tax-questions",
+      "destination": "/blog/state-s-corp-tax-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/reasonable-compensation-scorecard",
+      "destination": "/blog/reasonable-compensation-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/reasonable-compensation-faq",
+      "destination": "/blog/reasonable-compensation-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/shareholder-distributions-red-flags",
+      "destination": "/blog/shareholder-distributions-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/shareholder-distributions-scorecard",
+      "destination": "/blog/shareholder-distributions-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/shareholder-basis-faq",
+      "destination": "/blog/shareholder-basis-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/reasonable-compensation-questions",
+      "destination": "/blog/reasonable-compensation-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/shareholder-basis-red-flags",
+      "destination": "/blog/shareholder-basis-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/shareholder-distributions-implementation",
+      "destination": "/blog/shareholder-distributions-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/owner-payroll-mistakes",
+      "destination": "/blog/owner-payroll-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/s-corp-exit-red-flags",
+      "destination": "/blog/s-corp-exit-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/reasonable-compensation-mistakes",
+      "destination": "/blog/reasonable-compensation-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/state-s-corp-tax-implementation",
+      "destination": "/blog/state-s-corp-tax-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/owner-payroll-questions",
+      "destination": "/blog/owner-payroll-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/health-insurance-mistakes",
+      "destination": "/blog/health-insurance-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/shareholder-basis-checklist",
+      "destination": "/blog/shareholder-basis-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/health-insurance-scorecard",
+      "destination": "/blog/health-insurance-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/owner-payroll-examples",
+      "destination": "/blog/owner-payroll-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/reasonable-compensation-advanced",
+      "destination": "/blog/reasonable-compensation-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/s-corp-eligibility-examples",
+      "destination": "/blog/s-corp-eligibility-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/shareholder-basis-scorecard",
+      "destination": "/blog/shareholder-basis-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/shareholder-distributions-checklist",
+      "destination": "/blog/shareholder-distributions-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/s-election-mistakes",
+      "destination": "/blog/s-election-field-guide",
+      "permanent": true
+    }
+  ],
+  "buildCommand": "node scripts/prepare-static.mjs && node brand-build.cjs && node scripts/brand-isolation.mjs dist && node scripts/brand-isolation.mjs dist --check && node scripts/brand-check.mjs dist && node scripts/consolidate-content.cjs",
   "outputDirectory": "dist"
 }
