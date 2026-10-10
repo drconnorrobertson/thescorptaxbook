@@ -28,22 +28,10 @@
           "value": "public, max-age=3600, must-revalidate"
         }
       ]
-    },
-    {
-      "source": "/(.*)",
-      "headers": [
-        {
-          "key": "X-Content-Type-Options",
-          "value": "nosniff"
-        },
-        {
-          "key": "Referrer-Policy",
-          "value": "strict-origin-when-cross-origin"
-        }
-      ]
     }
   ],
   "rewrites": [],
   "redirects": [],
-  "buildCommand": "node brand-build.cjs"
+  "buildCommand": "node scripts/prepare-static.mjs && node brand-build.cjs && node scripts/brand-isolation.mjs dist && node scripts/brand-isolation.mjs dist --check",
+  "outputDirectory": "dist"
 }

@@ -44,5 +44,6 @@
       "Ask the preparer about basis limits and corrections."
     ]
   ],
-  "generated": false
+  "generated": false,
+  "outputDirectory": "dist"
 }

@@ -1,5 +1,5 @@
 const fs=require('fs'),path=require('path');
-const root=__dirname,cfg=JSON.parse(fs.readFileSync(path.join(root,'brand/site.json'),'utf8')),out=cfg.generated?path.join(root,'public'):root;
+const root=__dirname,cfg=JSON.parse(fs.readFileSync(path.join(root,'brand/site.json'),'utf8')),out=cfg.outputDirectory?path.join(root,cfg.outputDirectory):(cfg.generated?path.join(root,'public'):root);
 const snippets=JSON.parse(fs.readFileSync(path.join(root,'brand/shell.json'),'utf8'));
 const skip=new Set(['.git','node_modules','brand','content','public','scripts','research']);
 function files(d){return fs.readdirSync(d,{withFileTypes:true}).flatMap(e=>e.isDirectory()&&!skip.has(e.name)?files(path.join(d,e.name)):e.isFile()&&e.name.endsWith('.html')?[path.join(d,e.name)]:[])}
