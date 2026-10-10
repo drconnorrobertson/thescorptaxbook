@@ -1,0 +1,48 @@
+{
+  "repo": "thescorptaxbook",
+  "domain": "www.thescorptaxbook.com",
+  "label": "S Corporation Tax Book",
+  "eyebrow": "The AE Tax Advisors reading room",
+  "headline": "Bring owner pay, basis, and distributions into focus.",
+  "intro": "Use this S corporation learning resource to understand the records behind owner compensation, shareholder basis, reimbursements, and distributions. Connect the operating facts with the return preparation process.",
+  "service": "/s-corp-owner-pay/",
+  "role": "S corporation book companion",
+  "topics": [
+    [
+      "Learning library",
+      "/blog/",
+      "Explore S corporation planning questions and preparation resources."
+    ],
+    [
+      "Owner compensation",
+      "https://www.aetaxadvisors.com/s-corp-owner-pay/",
+      "Discuss compensation duties, payroll, and supporting evidence."
+    ],
+    [
+      "Business advisory",
+      "https://www.aetaxadvisors.com/business-owner-small-business-tax/",
+      "Coordinate owner-level and business-level planning."
+    ]
+  ],
+  "prepare": [
+    "Ownership and election documents",
+    "Payroll, distributions, and reimbursement records",
+    "Stock and debt basis schedules",
+    "Owner duties and compensation comparison evidence"
+  ],
+  "steps": [
+    [
+      "Separate payment types",
+      "Distinguish wages, reimbursements, loans, and distributions."
+    ],
+    [
+      "Reconcile the records",
+      "Connect payroll and shareholder schedules with the books."
+    ],
+    [
+      "Resolve exceptions",
+      "Ask the preparer about basis limits and corrections."
+    ]
+  ],
+  "generated": false
+}
