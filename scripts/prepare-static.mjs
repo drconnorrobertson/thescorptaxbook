@@ -4,7 +4,7 @@ import {fileURLToPath} from 'node:url';
 const repo = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 const out = path.join(repo,'dist');
 const extensions = new Set(['.html','.css','.js','.json','.svg','.txt','.xml','.png','.jpg','.jpeg','.webp','.avif','.gif','.ico','.woff2','.woff','.ttf','.eot','.mp3','.mp4','.webm','.vtt','.webmanifest','.pdf','.csv']);
-const skip = new Set(['.git','.vercel','node_modules','dist','scripts','tests','work','app','src','lib','components','api','_gen','__pycache__','brand-link-policy.json','package.json','package-lock.json','tsconfig.json','vercel.json']);
+const skip = new Set(['.git','.vercel','node_modules','dist','scripts','tests','work','app','src','lib','components','api','_gen','__pycache__','brand-link-policy.json','brand-check-policy.json','package.json','package-lock.json','tsconfig.json','vercel.json']);
 fs.rmSync(out,{recursive:true,force:true});fs.mkdirSync(out,{recursive:true});
 function copy(dir,dest) {
  for(const entry of fs.readdirSync(dir,{withFileTypes:true})) {

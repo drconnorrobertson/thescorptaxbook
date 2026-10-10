@@ -32,6 +32,6 @@
   ],
   "rewrites": [],
   "redirects": [],
-  "buildCommand": "node scripts/prepare-static.mjs && node brand-build.cjs && node scripts/brand-isolation.mjs dist && node scripts/brand-isolation.mjs dist --check",
+  "buildCommand": "node scripts/prepare-static.mjs && node brand-build.cjs && node scripts/brand-isolation.mjs dist && node scripts/brand-isolation.mjs dist --check && node scripts/brand-check.mjs dist",
   "outputDirectory": "dist"
 }
