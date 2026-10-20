@@ -9,7 +9,7 @@ for(const [file,c] of Object.entries(config)){
  meta('description',c.description);meta('og:title',c.title);meta('og:description',c.description);meta('twitter:title',c.title);meta('twitter:description',c.description);
  html=html.replace(/<!-- buyer-intent-release:start -->[\s\S]*?<!-- buyer-intent-release:end -->/g,'');
  const h=/<h1\b/i.test(html)?'h2':'h1';
- const section='<!-- buyer-intent-release:start --><section class="section buyer-intent-release" aria-labelledby="buyer-next-step"><div class="wrap container prose"><'+h+' id="buyer-next-step">'+escape(c.heading)+'</'+h+'>'+c.body+'</div></section><!-- buyer-intent-release:end -->';
+ const section='<!-- buyer-intent-release:start --><section class="ae-section ae-section-white buyer-intent-release" aria-labelledby="buyer-next-step"><div class="ae-wrap"><div class="ae-heading"><'+h+' id="buyer-next-step">'+escape(c.heading)+'</'+h+'>'+c.body+'</div></div></section><!-- buyer-intent-release:end -->';
  if(/<\/main>/i.test(html))html=html.replace(/<\/main>/i,section+'</main>');else if(/<footer\b/i.test(html))html=html.replace(/<footer\b/i,section+'<footer');else html=html.replace(/<\/body>/i,section+'</body>');
  fs.writeFileSync(p,html);
  console.log('Buyer intent updated: '+p);
