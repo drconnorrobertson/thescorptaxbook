@@ -483,6 +483,6 @@
       "permanent": true
     }
   ],
-  "buildCommand": "node scripts/production-build.cjs",
+  "buildCommand": "node scripts/production-build.cjs && node scripts/practical-homepage.cjs dist && node scripts/brand-check.mjs dist",
   "outputDirectory": "dist"
 }
