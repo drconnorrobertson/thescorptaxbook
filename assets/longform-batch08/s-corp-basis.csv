@@ -1,0 +1,4 @@
+fictional_case,stock_basis,qualifying_debt_basis,selected_loss,passes_basis_ceiling_only,basis_limited,later_limits
+Stock only,30000,0,45000,30000,15000,unresolved
+Qualifying adjusted direct debt assumed,30000,10000,45000,40000,5000,unresolved
+Unpaid guarantee only assumed,30000,0,45000,30000,15000,unresolved
