@@ -1,0 +1,22 @@
+{
+  "title": "S Corporation Tax Book: Pay, Basis & Elections | AE Tax",
+  "description": "Explore the AE S corporation tax book and companion examples on reasonable salary, distributions, shareholder basis and supporting workpapers.",
+  "heading": "Put the S corporation concepts into a working file",
+  "intro": "Read the book alongside the compensation and basis records needed for a useful preparer conversation.",
+  "links": [
+    {
+      "href": "/reading-guides/reasonable-salary-before-distributions",
+      "label": "Salary and distributions example"
+    },
+    {
+      "href": "/reading-guides/stock-debt-basis-loss-example",
+      "label": "Stock and debt basis example"
+    },
+    {
+      "href": "/resources/reasonable-compensation-workpaper",
+      "label": "Prepare a compensation workpaper"
+    }
+  ],
+  "buildCommand": "node scripts/production-build.cjs && node scripts/practical-homepage.cjs dist && node scripts/brand-check.mjs dist",
+  "outputDirectory": "dist"
+}
