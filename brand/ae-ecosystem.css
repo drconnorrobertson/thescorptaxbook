@@ -13,3 +13,6 @@ body.ae-site main:not(.ae-home){max-width:1140px;margin:auto;padding:54px 32px 7
 
 /* Focused library navigation and filter recovery. */
 .ae-library-start{max-width:1120px;margin:0 auto 24px;padding:24px;box-sizing:border-box;border:1px solid #dbe3ec;border-radius:12px}.ae-library-start h2{margin-top:0}.ae-library-start li{margin:10px 0}.ae-library-clear{align-self:end;min-height:44px;padding:10px 16px;border:1px solid #1b2a4a;border-radius:6px;background:#fff;color:#1b2a4a;font:inherit;cursor:pointer}.ae-library-clear:focus-visible{outline:3px solid #4169ad;outline-offset:3px}.ae-library-clear[hidden],.ae-library-empty[hidden]{display:none}.ae-library-empty{max-width:1120px;margin:16px auto;padding:18px 24px;box-sizing:border-box;background:#f4f7fb;border-left:4px solid #4169ad}
+
+/* Preserve legacy article banner contrast after the shared white-section reset. */
+body.ae-site main.ae-content-old>section.post-hero{background:var(--ae-navy);color:#fff}body.ae-site main.ae-content-old>section.post-hero h1{color:#fff}
