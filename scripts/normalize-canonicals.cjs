@@ -1,8 +1,10 @@
-// Match the existing Vercel trailingSlash:false routes without changing content.
+// Match slashless canonical routes; explicit topic redirects precede the slash fallback.
 const fs=require('fs'),path=require('path'),assert=require('assert/strict');
 const root=process.argv[2]||'dist';
 const config=require('../vercel.json');
-assert.equal(config.trailingSlash,false,'Normalizer is only valid for slashless routes');
+assert.equal(config.trailingSlash,undefined,'Built-in slash normalization must not precede topic redirects');
+const slashFallback=config.redirects.at(-1);
+assert.deepEqual(slashFallback,{source:'/:path([^/].*)/',destination:'/:path',permanent:true},'Slash removal must be the final explicit redirect');
 const site=require('../brand/site.json');
 const routes=['consultation-preparation','library','ecosystem','editorial-standards'];
 const origin='https://'+site.domain;
