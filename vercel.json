@@ -1,5 +1,4 @@
 {
-  "cleanUrls": true,
   "headers": [
     {
       "source": "/css/(.*)",
@@ -29,7 +28,164 @@
       ]
     }
   ],
-  "rewrites": [],
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/about",
+      "destination": "/about.html"
+    },
+    {
+      "source": "/blog",
+      "destination": "/blog/index.html"
+    },
+    {
+      "source": "/blog/health-insurance-field-guide",
+      "destination": "/blog/health-insurance-field-guide/index.html"
+    },
+    {
+      "source": "/blog/owner-payroll-field-guide",
+      "destination": "/blog/owner-payroll-field-guide/index.html"
+    },
+    {
+      "source": "/blog/posts/qbi-deduction-s-corp-guide",
+      "destination": "/blog/posts/qbi-deduction-s-corp-guide.html"
+    },
+    {
+      "source": "/blog/posts/reasonable-compensation-s-corp",
+      "destination": "/blog/posts/reasonable-compensation-s-corp.html"
+    },
+    {
+      "source": "/blog/posts/s-corp-self-employment-tax-savings",
+      "destination": "/blog/posts/s-corp-self-employment-tax-savings.html"
+    },
+    {
+      "source": "/blog/posts/s-corp-shareholder-basis-tracking",
+      "destination": "/blog/posts/s-corp-shareholder-basis-tracking.html"
+    },
+    {
+      "source": "/blog/posts/s-corp-vs-llc-tax-savings",
+      "destination": "/blog/posts/s-corp-vs-llc-tax-savings.html"
+    },
+    {
+      "source": "/blog/reasonable-compensation-field-guide",
+      "destination": "/blog/reasonable-compensation-field-guide/index.html"
+    },
+    {
+      "source": "/blog/retirement-plans-field-guide",
+      "destination": "/blog/retirement-plans-field-guide/index.html"
+    },
+    {
+      "source": "/blog/s-corp-eligibility-field-guide",
+      "destination": "/blog/s-corp-eligibility-field-guide/index.html"
+    },
+    {
+      "source": "/blog/s-corp-exit-field-guide",
+      "destination": "/blog/s-corp-exit-field-guide/index.html"
+    },
+    {
+      "source": "/blog/s-election-field-guide",
+      "destination": "/blog/s-election-field-guide/index.html"
+    },
+    {
+      "source": "/blog/shareholder-basis-field-guide",
+      "destination": "/blog/shareholder-basis-field-guide/index.html"
+    },
+    {
+      "source": "/blog/shareholder-distributions-field-guide",
+      "destination": "/blog/shareholder-distributions-field-guide/index.html"
+    },
+    {
+      "source": "/blog/state-s-corp-tax-field-guide",
+      "destination": "/blog/state-s-corp-tax-field-guide/index.html"
+    },
+    {
+      "source": "/editorial-policy",
+      "destination": "/editorial-policy/index.html"
+    },
+    {
+      "source": "/publisher",
+      "destination": "/publisher/index.html"
+    },
+    {
+      "source": "/reading-guides",
+      "destination": "/reading-guides/index.html"
+    },
+    {
+      "source": "/reading-guides/accountable-plan-reimbursement-file",
+      "destination": "/reading-guides/accountable-plan-reimbursement-file/index.html"
+    },
+    {
+      "source": "/reading-guides/owner-health-insurance-coordination",
+      "destination": "/reading-guides/owner-health-insurance-coordination/index.html"
+    },
+    {
+      "source": "/reading-guides/reasonable-salary-before-distributions",
+      "destination": "/reading-guides/reasonable-salary-before-distributions/index.html"
+    },
+    {
+      "source": "/reading-guides/s-corp-excess-business-loss-2026",
+      "destination": "/reading-guides/s-corp-excess-business-loss-2026/index.html"
+    },
+    {
+      "source": "/reading-guides/s-corp-retirement-wages-distributions",
+      "destination": "/reading-guides/s-corp-retirement-wages-distributions/index.html"
+    },
+    {
+      "source": "/reading-guides/stock-debt-basis-loss-example",
+      "destination": "/reading-guides/stock-debt-basis-loss-example/index.html"
+    },
+    {
+      "source": "/resources",
+      "destination": "/resources/index.html"
+    },
+    {
+      "source": "/resources/reasonable-compensation-workpaper",
+      "destination": "/resources/reasonable-compensation-workpaper/index.html"
+    },
+    {
+      "source": "/resources/s-corp-basis-year-end-reconciliation",
+      "destination": "/resources/s-corp-basis-year-end-reconciliation/index.html"
+    },
+    {
+      "source": "/site-map",
+      "destination": "/site-map/index.html"
+    },
+    {
+      "source": "/consultation-preparation",
+      "destination": "/consultation-preparation/index.html"
+    },
+    {
+      "source": "/library",
+      "destination": "/library/index.html"
+    },
+    {
+      "source": "/ecosystem",
+      "destination": "/ecosystem/index.html"
+    },
+    {
+      "source": "/editorial-standards",
+      "destination": "/editorial-standards/index.html"
+    },
+    {
+      "source": "/resources/buying-s-corporation-tax-diligence-checklist",
+      "destination": "/resources/buying-s-corporation-tax-diligence-checklist/index.html"
+    },
+    {
+      "source": "/resources/s-corp-payroll-provider-versus-tax-advisor",
+      "destination": "/resources/s-corp-payroll-provider-versus-tax-advisor/index.html"
+    },
+    {
+      "source": "/resources/late-s-election-relief-tax-advisor-checklist",
+      "destination": "/resources/late-s-election-relief-tax-advisor-checklist/index.html"
+    },
+    {
+      "source": "/resources/s-corporation-shareholder-loan-repayment-tax-review",
+      "destination": "/resources/s-corporation-shareholder-loan-repayment-tax-review/index.html"
+    }
+  ],
   "redirects": [
     {
       "source": "/blog/retirement-plans-checklist",
@@ -1382,11 +1538,207 @@
       "permanent": true
     },
     {
+      "source": "/index.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/about.html",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/blog/index.html",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/health-insurance-field-guide/index.html",
+      "destination": "/blog/health-insurance-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/owner-payroll-field-guide/index.html",
+      "destination": "/blog/owner-payroll-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/posts/qbi-deduction-s-corp-guide.html",
+      "destination": "/blog/posts/qbi-deduction-s-corp-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/posts/reasonable-compensation-s-corp.html",
+      "destination": "/blog/posts/reasonable-compensation-s-corp",
+      "permanent": true
+    },
+    {
+      "source": "/blog/posts/s-corp-self-employment-tax-savings.html",
+      "destination": "/blog/posts/s-corp-self-employment-tax-savings",
+      "permanent": true
+    },
+    {
+      "source": "/blog/posts/s-corp-shareholder-basis-tracking.html",
+      "destination": "/blog/posts/s-corp-shareholder-basis-tracking",
+      "permanent": true
+    },
+    {
+      "source": "/blog/posts/s-corp-vs-llc-tax-savings.html",
+      "destination": "/blog/posts/s-corp-vs-llc-tax-savings",
+      "permanent": true
+    },
+    {
+      "source": "/blog/reasonable-compensation-field-guide/index.html",
+      "destination": "/blog/reasonable-compensation-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/retirement-plans-field-guide/index.html",
+      "destination": "/blog/retirement-plans-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/s-corp-eligibility-field-guide/index.html",
+      "destination": "/blog/s-corp-eligibility-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/s-corp-exit-field-guide/index.html",
+      "destination": "/blog/s-corp-exit-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/s-election-field-guide/index.html",
+      "destination": "/blog/s-election-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/shareholder-basis-field-guide/index.html",
+      "destination": "/blog/shareholder-basis-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/shareholder-distributions-field-guide/index.html",
+      "destination": "/blog/shareholder-distributions-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/state-s-corp-tax-field-guide/index.html",
+      "destination": "/blog/state-s-corp-tax-field-guide",
+      "permanent": true
+    },
+    {
+      "source": "/editorial-policy/index.html",
+      "destination": "/editorial-policy",
+      "permanent": true
+    },
+    {
+      "source": "/publisher/index.html",
+      "destination": "/publisher",
+      "permanent": true
+    },
+    {
+      "source": "/reading-guides/index.html",
+      "destination": "/reading-guides",
+      "permanent": true
+    },
+    {
+      "source": "/reading-guides/accountable-plan-reimbursement-file/index.html",
+      "destination": "/reading-guides/accountable-plan-reimbursement-file",
+      "permanent": true
+    },
+    {
+      "source": "/reading-guides/owner-health-insurance-coordination/index.html",
+      "destination": "/reading-guides/owner-health-insurance-coordination",
+      "permanent": true
+    },
+    {
+      "source": "/reading-guides/reasonable-salary-before-distributions/index.html",
+      "destination": "/reading-guides/reasonable-salary-before-distributions",
+      "permanent": true
+    },
+    {
+      "source": "/reading-guides/s-corp-excess-business-loss-2026/index.html",
+      "destination": "/reading-guides/s-corp-excess-business-loss-2026",
+      "permanent": true
+    },
+    {
+      "source": "/reading-guides/s-corp-retirement-wages-distributions/index.html",
+      "destination": "/reading-guides/s-corp-retirement-wages-distributions",
+      "permanent": true
+    },
+    {
+      "source": "/reading-guides/stock-debt-basis-loss-example/index.html",
+      "destination": "/reading-guides/stock-debt-basis-loss-example",
+      "permanent": true
+    },
+    {
+      "source": "/resources/index.html",
+      "destination": "/resources",
+      "permanent": true
+    },
+    {
+      "source": "/resources/reasonable-compensation-workpaper/index.html",
+      "destination": "/resources/reasonable-compensation-workpaper",
+      "permanent": true
+    },
+    {
+      "source": "/resources/s-corp-basis-year-end-reconciliation/index.html",
+      "destination": "/resources/s-corp-basis-year-end-reconciliation",
+      "permanent": true
+    },
+    {
+      "source": "/site-map/index.html",
+      "destination": "/site-map",
+      "permanent": true
+    },
+    {
+      "source": "/consultation-preparation/index.html",
+      "destination": "/consultation-preparation",
+      "permanent": true
+    },
+    {
+      "source": "/library/index.html",
+      "destination": "/library",
+      "permanent": true
+    },
+    {
+      "source": "/ecosystem/index.html",
+      "destination": "/ecosystem",
+      "permanent": true
+    },
+    {
+      "source": "/editorial-standards/index.html",
+      "destination": "/editorial-standards",
+      "permanent": true
+    },
+    {
+      "source": "/resources/buying-s-corporation-tax-diligence-checklist/index.html",
+      "destination": "/resources/buying-s-corporation-tax-diligence-checklist",
+      "permanent": true
+    },
+    {
+      "source": "/resources/s-corp-payroll-provider-versus-tax-advisor/index.html",
+      "destination": "/resources/s-corp-payroll-provider-versus-tax-advisor",
+      "permanent": true
+    },
+    {
+      "source": "/resources/late-s-election-relief-tax-advisor-checklist/index.html",
+      "destination": "/resources/late-s-election-relief-tax-advisor-checklist",
+      "permanent": true
+    },
+    {
+      "source": "/resources/s-corporation-shareholder-loan-repayment-tax-review/index.html",
+      "destination": "/resources/s-corporation-shareholder-loan-repayment-tax-review",
+      "permanent": true
+    },
+    {
       "source": "/:path([^/].*)/",
       "destination": "/:path",
       "permanent": true
     }
   ],
   "buildCommand": "node scripts/seo-production.cjs",
-  "outputDirectory": "dist"
+  "outputDirectory": "dist",
+  "cleanUrls": false
 }
