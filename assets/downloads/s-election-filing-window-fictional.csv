@@ -1,0 +1,4 @@
+fictional_case,effective_tax_year_start,assumed_filing_date,ordinary_deadline,ordinary_window_only,eligibility,consents,acceptance,relief_available,net_tax_benefit
+A,2027-01-01,2027-02-12,2027-03-15,Within stated window,,,,,
+B,2027-01-01,2027-03-16,2027-03-15,Outside stated window; review relief,,,,,
+C,,2027-02-12,,Unresolved; obtain start-date facts,,,,,
