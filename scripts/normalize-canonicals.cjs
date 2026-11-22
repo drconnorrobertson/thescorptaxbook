@@ -2,6 +2,7 @@
 const fs=require('fs'),path=require('path'),assert=require('assert/strict');
 const root=process.argv[2]||'dist';
 const config=require('../vercel.json');
+assert.equal(config.cleanUrls,false,'Implicit clean-URL redirects must not precede retired-file redirects');
 assert.equal(config.trailingSlash,undefined,'Built-in slash normalization must not precede topic redirects');
 const slashFallback=config.redirects.at(-1);
 assert.deepEqual(slashFallback,{source:'/:path([^/].*)/',destination:'/:path',permanent:true},'Slash removal must be the final explicit redirect');
@@ -27,4 +28,19 @@ for(const route of routes){
  assert(xml.includes('<loc>'+origin+'/'+route+'</loc>'),route+' missing normalized sitemap entry');
  assert(!xml.includes('<loc>'+origin+'/'+route+'/</loc>'),route+' retains redirected sitemap entry');
 }
+
+// Every declared owner must have a concrete static rewrite after the redirect phase.
+const owners=[...fs.readFileSync(path.join(root,'sitemap.xml'),'utf8').matchAll(/<loc>([^<]+)<\/loc>/g)].map(m=>m[1]);
+for(const owner of owners){
+ const route=new URL(owner).pathname;
+ const matches=(config.rewrites||[]).filter(r=>r.source===route);
+ assert.equal(matches.length,1,'Missing or ambiguous owner rewrite: '+route);
+ const file=path.resolve(root,matches[0].destination.replace(/^\//,''));
+ assert(file.startsWith(path.resolve(root)+path.sep),'Rewrite escaped publish directory');
+ assert(fs.existsSync(file)&&fs.statSync(file).isFile(),'Missing rewrite file: '+route);
+ const tag=fs.readFileSync(file,'utf8').match(/<link\b[^>]*rel=["']canonical["'][^>]*>/i);
+ const canonical=tag&&tag[0].match(/href=["']([^"']+)["']/i);
+ assert(canonical&&canonical[1]===owner,'Rewrite points to a different canonical owner: '+route);
+}
+
 console.log('Canonical route normalization: '+count+' files updated; four routes verified.');
