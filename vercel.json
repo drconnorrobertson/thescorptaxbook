@@ -30,6 +30,30 @@
   ],
   "rewrites": [
     {
+      "source": "/reading-guides/shareholder-loan-bank-trail",
+      "destination": "/reading-guides/shareholder-loan-bank-trail/index.html"
+    },
+    {
+      "source": "/reading-guides/shareholder-guarantee-payment-record",
+      "destination": "/reading-guides/shareholder-guarantee-payment-record/index.html"
+    },
+    {
+      "source": "/reading-guides/shareholder-loss-carryforward-source-record",
+      "destination": "/reading-guides/shareholder-loss-carryforward-source-record/index.html"
+    },
+    {
+      "source": "/reading-guides/shareholder-distribution-amount-before-basis-review",
+      "destination": "/reading-guides/shareholder-distribution-amount-before-basis-review/index.html"
+    },
+    {
+      "source": "/reading-guides/shareholder-debt-basis-repayment-opening-file",
+      "destination": "/reading-guides/shareholder-debt-basis-repayment-opening-file/index.html"
+    },
+    {
+      "source": "/reading-guides/s-corp-basis-k1-correction-tracking",
+      "destination": "/reading-guides/s-corp-basis-k1-correction-tracking/index.html"
+    },
+    {
       "source": "/",
       "destination": "/index.html"
     },
@@ -187,6 +211,66 @@
     }
   ],
   "redirects": [
+    {
+      "source": "/reading-guides/shareholder-loan-bank-trail/",
+      "destination": "/reading-guides/shareholder-loan-bank-trail",
+      "permanent": true
+    },
+    {
+      "source": "/reading-guides/shareholder-loan-bank-trail/index.html",
+      "destination": "/reading-guides/shareholder-loan-bank-trail",
+      "permanent": true
+    },
+    {
+      "source": "/reading-guides/shareholder-guarantee-payment-record/",
+      "destination": "/reading-guides/shareholder-guarantee-payment-record",
+      "permanent": true
+    },
+    {
+      "source": "/reading-guides/shareholder-guarantee-payment-record/index.html",
+      "destination": "/reading-guides/shareholder-guarantee-payment-record",
+      "permanent": true
+    },
+    {
+      "source": "/reading-guides/shareholder-loss-carryforward-source-record/",
+      "destination": "/reading-guides/shareholder-loss-carryforward-source-record",
+      "permanent": true
+    },
+    {
+      "source": "/reading-guides/shareholder-loss-carryforward-source-record/index.html",
+      "destination": "/reading-guides/shareholder-loss-carryforward-source-record",
+      "permanent": true
+    },
+    {
+      "source": "/reading-guides/shareholder-distribution-amount-before-basis-review/",
+      "destination": "/reading-guides/shareholder-distribution-amount-before-basis-review",
+      "permanent": true
+    },
+    {
+      "source": "/reading-guides/shareholder-distribution-amount-before-basis-review/index.html",
+      "destination": "/reading-guides/shareholder-distribution-amount-before-basis-review",
+      "permanent": true
+    },
+    {
+      "source": "/reading-guides/shareholder-debt-basis-repayment-opening-file/",
+      "destination": "/reading-guides/shareholder-debt-basis-repayment-opening-file",
+      "permanent": true
+    },
+    {
+      "source": "/reading-guides/shareholder-debt-basis-repayment-opening-file/index.html",
+      "destination": "/reading-guides/shareholder-debt-basis-repayment-opening-file",
+      "permanent": true
+    },
+    {
+      "source": "/reading-guides/s-corp-basis-k1-correction-tracking/",
+      "destination": "/reading-guides/s-corp-basis-k1-correction-tracking",
+      "permanent": true
+    },
+    {
+      "source": "/reading-guides/s-corp-basis-k1-correction-tracking/index.html",
+      "destination": "/reading-guides/s-corp-basis-k1-correction-tracking",
+      "permanent": true
+    },
     {
       "source": "/blog/retirement-plans-checklist",
       "destination": "/blog/retirement-plans-field-guide",
